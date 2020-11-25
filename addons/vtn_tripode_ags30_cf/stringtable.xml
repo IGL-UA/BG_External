@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project name="Arma3">
+	<Package name="VTN">
+		<Container name="VTN_TRIPOD_AGS">
+			<Key ID="STR_DN_VTN_AGS30">
+				<German>AGS-30</German>
+				<English>AGS-30</English>
+				<Italian>AGS-30</Italian>
+				<Spanish>AGS-30</Spanish>
+				<French>AGS-30</French>
+				<Czech>AGS-30</Czech>
+				<Russian>АГС-30</Russian>
+				<Polish>AGS-30</Polish>
+				<Hungarian>AGS-30</Hungarian>
+			</Key>
+			<Key ID="STR_DS_VTN_AGS30">
+				<German>Maschinengranatwerfer&lt;br/&gt;Visierung: PAG-17, 2,7x&lt;br/&gt;Kaliber: 30 mm&lt;br/&gt;Gewicht: 18,50 kg</German>
+				<English>Automatic grenade launcher&lt;br/&gt;Sight: PAG-17, 2.7x&lt;br/&gt;Caliber: 30 mm&lt;br/&gt;Weight: 18.50 kg</English>
+				<Italian>Automatic grenade launcher&lt;br/&gt;Mirino: PAG-17, 2.7x&lt;br/&gt;Calibro: 30 mm&lt;br/&gt;Peso: 18,50 kg</Italian>
+				<Spanish>Lanzagranadas automático&lt;br/&gt;Visor: PAG-17, 2,7x&lt;br/&gt;Calibre: 30 mm&lt;br/&gt;Peso: 18,50 kg</Spanish>
+				<French>Automatic grenade launcher&lt;br/&gt;Viseur: PAG-17, 2.7x&lt;br/&gt;Calibre: 30 mm&lt;br/&gt;Poids: 18,50 kg</French>
+				<Czech>Automatic grenade launcher&lt;br/&gt;Miřidla: PAG-17, 2.7x&lt;br/&gt;Ráže: 30 mm&lt;br/&gt;Hmotnost: 18,50 kg</Czech>
+				<Russian>Автоматичний гранатомет станковий&lt;br/&gt;Приціл: ПАГ-17, 2,7x&lt;br/&gt;Калібр: 30-мм&lt;br/&gt;Вага: 18,50 кг</Russian>
+				<Polish>Granatnik automatyczny&lt;br/&gt;Celownik: PAG-17, 2,7x&lt;br/&gt;Kaliber: 30 mm&lt;br/&gt;Waga: 18,50 kg</Polish>
+				<Hungarian>Automatic grenade launcher&lt;br/&gt;Irányzék: PAG-17, 2.7x&lt;br/&gt;Űrméret: 30 mm&lt;br/&gt;Súly: 18,50 kg</Hungarian>
+			</Key>
+		</Container>
+		
+		<Container name="VTN_TRIPOD_AGS_BACKPACK">
+			<Key ID="STR_DN_VTN_AGS30_RUCK">
+				<German>AGS-30</German>
+				<English>AGS-30</English>
+				<Italian>AGS-30</Italian>
+				<Spanish>AGS-30</Spanish>
+				<French>AGS-30</French>
+				<Czech>AGS-30</Czech>
+				<Russian>АГС-30</Russian>
+				<Polish>AGS-30</Polish>
+				<Hungarian>AGS-30</Hungarian>
+			</Key>
+			<Key ID="STR_DS_VTN_AGS30_RUCK">
+				<German>Maschinengranatwerfer&lt;br/&gt;Visierung: PAG-17, 2,7x&lt;br/&gt;Kaliber: 30 mm&lt;br/&gt;Gewicht: 18,50 kg</German>
+				<English>Automatic grenade launcher&lt;br/&gt;Sight: PAG-17, 2.7x&lt;br/&gt;Caliber: 30 mm&lt;br/&gt;Weight: 18.50 kg</English>
+				<Italian>Automatic grenade launcher&lt;br/&gt;Mirino: PAG-17, 2.7x&lt;br/&gt;Calibro: 30 mm&lt;br/&gt;Peso: 18,50 kg</Italian>
+				<Spanish>Lanzagranadas automático&lt;br/&gt;Visor: PAG-17, 2,7x&lt;br/&gt;Calibre: 30 mm&lt;br/&gt;Peso: 18,50 kg</Spanish>
+				<French>Automatic grenade launcher&lt;br/&gt;Viseur: PAG-17, 2.7x&lt;br/&gt;Calibre: 30 mm&lt;br/&gt;Poids: 18,50 kg</French>
+				<Czech>Automatic grenade launcher&lt;br/&gt;Miřidla: PAG-17, 2.7x&lt;br/&gt;Ráže: 30 mm&lt;br/&gt;Hmotnost: 18,50 kg</Czech>
+				<Russian>Автоматичний гранатомет станковий&lt;br/&gt;Приціл: ПАГ-17, 2,7x&lt;br/&gt;Калібр: 30-мм&lt;br/&gt;Вага: 18,50 кг</Russian>
+				<Polish>Granatnik automatyczny&lt;br/&gt;Celownik: PAG-17, 2,7x&lt;br/&gt;Kaliber: 30 mm&lt;br/&gt;Waga: 18,50 kg</Polish>
+				<Hungarian>Automatic grenade launcher&lt;br/&gt;Irányzék: PAG-17, 2.7x&lt;br/&gt;Űrméret: 30 mm&lt;br/&gt;Súly: 18,50 kg</Hungarian>
+			</Key>
+		</Container>
+		
+		<Container name="VTN_TRIPOD_AGS_ACTIONS">
+			<Key ID="STR_DN_LOAD_VTN_VOG17A">
+				<German>WOG-17A-Gurtkasten laden</German>
+				<English>Load VOG-17A box</English>
+				<Italian>Load VOG-17A box</Italian>
+				<Spanish>Load VOG-17A box</Spanish>
+				<French>Load VOG-17A box</French>
+				<Czech>Load VOG-17A box</Czech>
+				<Russian>Зарядити короб ВОГ-17А</Russian>
+				<Polish>Load VOG-17A box</Polish>
+				<Hungarian>Load VOG-17A box</Hungarian>
+			</Key>
+			<Key ID="STR_DN_LOAD_VTN_VOG17M">
+				<German>WOG-17M-Gurtkasten laden</German>
+				<English>Load VOG-17M box</English>
+				<Italian>Load VOG-17M box</Italian>
+				<Spanish>Load VOG-17M box</Spanish>
+				<French>Load VOG-17M box</French>
+				<Czech>Load VOG-17M box</Czech>
+				<Russian>Зарядити короб ВОГ-17М</Russian>
+				<Polish>Load VOG-17M box</Polish>
+				<Hungarian>Load VOG-17M box</Hungarian>
+			</Key>
+			<Key ID="STR_DN_LOAD_VTN_VOG30">
+				<German>WOG-30-Gurtkasten laden</German>
+				<English>Load VOG-30 box</English>
+				<Italian>Load VOG-30 box</Italian>
+				<Spanish>Load VOG-30 box</Spanish>
+				<French>Load VOG-30 box</French>
+				<Czech>Load VOG-30 box</Czech>
+				<Russian>Зарядити короб ВОГ-30</Russian>
+				<Polish>Load VOG-30 box</Polish>
+				<Hungarian>Load VOG-30 box</Hungarian>
+			</Key>
+		</Container>
+	</Package>
+</Project>
