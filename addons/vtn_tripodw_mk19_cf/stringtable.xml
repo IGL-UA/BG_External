@@ -1,0 +1,206 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project name="Arma3">
+	<Package name="VTN">		
+		<Container name="VTN_GRENADE_LAUNCHERS">
+			<Key ID="STR_DN_VTN_MK19">
+				<German>Mk 19</German>
+				<English>Mk 19</English>
+				<Italian>Mk 19</Italian>
+				<Spanish>Mk 19</Spanish>
+				<French>Mk 19</French>
+				<Czech>Mk 19</Czech>
+				<Russian>Mk 19</Russian>
+				<Polish>Mk 19</Polish>
+				<Hungarian>Mk 19</Hungarian>
+			</Key>
+			<Key ID="STR_DN_VTN_MK19MOD3">
+				<German>Mk 19 Mod 3</German>
+				<English>Mk 19 Mod 3</English>
+				<Italian>Mk 19 Mod 3</Italian>
+				<Spanish>Mk 19 Mod 3</Spanish>
+				<French>Mk 19 Mod 3</French>
+				<Czech>Mk 19 Mod 3</Czech>
+				<Russian>Mk 19 Mod 3</Russian>
+				<Polish>Mk 19 Mod 3</Polish>
+				<Hungarian>Mk 19 Mod 3</Hungarian>
+			</Key>
+		</Container>
+		
+		<Container name="VTN_TRIPOD_MK19">
+			<Key ID="STR_DN_VTN_MK19MOD3_M3">
+				<German>Mk 19 auf M3</German>
+				<English>Mk 19 on M3</English>
+				<Italian>Mk 19 on M3</Italian>
+				<Spanish>Mk 19 on M3</Spanish>
+				<French>Mk 19 on M3</French>
+				<Czech>Mk 19 on M3</Czech>
+				<Russian>Mk 19 на М3</Russian>
+				<Polish>Mk 19 on M3</Polish>
+				<Hungarian>Mk 19 on M3</Hungarian>
+			</Key>
+			<Key ID="STR_DS_VTN_MK19MOD3_M3">
+				<German>Maschinengranatwerfer auf M3-Dreibein montiert&lt;br/&gt;Visierung: offene&lt;br/&gt;Kaliber: 40 mm&lt;br/&gt;Gewicht: 62,43 kg</German>
+				<English>Automatic grenade launcher mounted on M3 tripod&lt;br/&gt;Sight: iron sight&lt;br/&gt;Caliber: 40mm&lt;br/&gt;Weight: 62.43 kg</English>
+				<Italian>Automatic grenade launcher mounted on M3 tripod&lt;br/&gt;Mirino: tacca di mira&lt;br/&gt;Calibro: 40mm&lt;br/&gt;Peso: 62,43 kg</Italian>
+				<Spanish>Lanzagranadas automático montada sobre trípode M3&lt;br/&gt;Visor: mira metálica&lt;br/&gt;Calibre: 40 mm&lt;br/&gt;Peso: 62,43 kg</Spanish>
+				<French>Automatic grenade launcher mounted on M3 tripod&lt;br/&gt;Viseur: métallique&lt;br/&gt;Calibre: 40mm&lt;br/&gt;Poids: 62,43 kg</French>
+				<Czech>Automatický granátomet na lafetě M3&lt;br/&gt;Miřidla: mechanická&lt;br/&gt;Ráže: 40 mm&lt;br/&gt;Hmotnost: 62,43 kg</Czech>
+				<Russian>Автоматичекий гранатомет станковый на станке М3&lt;br/&gt;Прицел: механический&lt;br/&gt;Калибр: 40-мм&lt;br/&gt;Вес: 62,43 кг</Russian>
+				<Polish>Granatnik automatyczny montowany na trójnogu M3&lt;br/&gt;Celownik: mechaniczny&lt;br/&gt;Kaliber: 40 mm&lt;br/&gt;Waga: 62,43 kg</Polish>
+				<Hungarian>Automatic grenade launcher mounted on M3 tripod&lt;br/&gt;Irányzék: mechanikai&lt;br/&gt;Űrméret: 40mm&lt;br/&gt;Súly: 62,43 kg</Hungarian>
+			</Key>
+		</Container>
+		
+		<Container name="VTN_TRIPOD_MK19_BACKPACK">
+			<Key ID="STR_DN_VTN_MK19MOD3_BACKPACK">
+				<German>Mk 19 Mod 3</German>
+				<English>Mk 19 Mod 3</English>
+				<Italian>Mk 19 Mod 3</Italian>
+				<Spanish>Mk 19 Mod 3</Spanish>
+				<French>Mk 19 Mod 3</French>
+				<Czech>Mk 19 Mod 3</Czech>
+				<Russian>Mk 19 Mod 3</Russian>
+				<Polish>Mk 19 Mod 3</Polish>
+				<Hungarian>Mk 19 Mod 3</Hungarian>
+			</Key>
+			<Key ID="STR_DS_VTN_MK19MOD3_BACKPACK">
+				<German>Maschinengranatwerfer&lt;br/&gt;Visierung: offene&lt;br/&gt;Kaliber: 40 mm&lt;br/&gt;Gewicht: 32,92 kg</German>
+				<English>Automatic grenade launcher&lt;br/&gt;Sight: iron sight&lt;br/&gt;Caliber: 40mm&lt;br/&gt;Weight: 32.92 kg</English>
+				<Italian>Automatic grenade launcher&lt;br/&gt;Mirino: tacca di mira&lt;br/&gt;Calibro: 40mm&lt;br/&gt;Peso: 32,92 kg</Italian>
+				<Spanish>Lanzagranadas automático&lt;br/&gt;Visor: mira metálica&lt;br/&gt;Calibre: 40 mm&lt;br/&gt;Peso: 32,92 kg</Spanish>
+				<French>Automatic grenade launcher&lt;br/&gt;Viseur: métallique&lt;br/&gt;Calibre: 40mm&lt;br/&gt;Poids: 32,92 kg</French>
+				<Czech>Automatic grenade launcher&lt;br/&gt;Miřidla: mechanická&lt;br/&gt;Ráže: 40 mm&lt;br/&gt;Hmotnost: 32,92 kg</Czech>
+				<Russian>Автоматичекий гранатомет станковый&lt;br/&gt;Прицел: механический&lt;br/&gt;Калибр: 40-мм&lt;br/&gt;Вес: 32,92 кг</Russian>
+				<Polish>Granatnik automatyczny&lt;br/&gt;Celownik: mechaniczny&lt;br/&gt;Kaliber: 40 mm&lt;br/&gt;Waga: 32,92 kg</Polish>
+				<Hungarian>Automatic grenade launcher&lt;br/&gt;Irányzék: mechanikai&lt;br/&gt;Űrméret: 40mm&lt;br/&gt;Súly: 32,92 kg</Hungarian>
+			</Key>
+			<Key ID="STR_DN_VTN_M3_MK19_BACKPACK">
+				<German>M3-Dreibein (Mk 19)</German>
+				<English>M3 tripod (Mk 19)</English>
+				<Italian>M3 tripod (Mk 19)</Italian>
+				<Spanish>M3 tripod (Mk 19)</Spanish>
+				<French>M3 tripod (Mk 19)</French>
+				<Czech>Lafet M3 (Mk 19)</Czech>
+				<Russian>Станок М3 (Mk 19)</Russian>
+				<Polish>Trójnoga M3 (Mk 19)</Polish>
+				<Hungarian>M3 tripod (Mk 19)</Hungarian>
+			</Key>
+			<Key ID="STR_DS_VTN_M3_MK19_BACKPACK">
+				<German>Dreibeinlafette für Maschinengranatwerfer;br/&gt;Gewicht: 19,98 kg</German>
+				<English>Automatic grenade launcher tripod&lt;br/&gt;Weight: 19.98 kg</English>
+				<Italian>Automatic grenade launcher tripod&lt;br/&gt;Peso: 19,98 kg</Italian>
+				<Spanish>Automatic grenade launcher tripod&lt;br/&gt;Peso: 19,98 kg</Spanish>
+				<French>Automatic grenade launcher tripod&lt;br/&gt;Poids: 19,98 kg</French>
+				<Czech>Automatic grenade launcher tripod&lt;br/&gt;Hmotnost: 19,98 kg</Czech>
+				<Russian>Гранатометный треножный станок&lt;br/&gt;Вес: 19,98 кг</Russian>
+				<Polish>Automatic grenade launcher tripod&lt;br/&gt;Waga: 19,98 kg</Polish>
+				<Hungarian>Automatic grenade launcher tripod&lt;br/&gt;Súly: 19,98 kg</Hungarian>
+			</Key>
+		</Container>
+		
+		<Container name="VTN_AUTOCANNON_GRENADES">
+			<Key ID="STR_DN_VTN_MK19_M384_48b">
+				<German>M384 Mk 19-Gurtkasten</German>
+				<English>M384 Mk 19 box</English>
+				<Italian>M384 Mk 19 box</Italian>
+				<Spanish>Caja M384</Spanish>
+				<French>M384 Mk 19 box</French>
+				<Czech>M384 Mk 19 box</Czech>
+				<Russian>Короб M384 к Mk 19</Russian>
+				<Polish>Skrzynka M384</Polish>
+				<Hungarian>M384 Mk 19 box</Hungarian>
+			</Key>
+			<Key ID="STR_DS_VTN_MK19_M384_48b">
+				<German>Kapazität: 48 Schüsse&lt;br/&gt;M548-Stahlbox&lt;br/&gt;Kaliber: 40 × 53 mm&lt;br/&gt;Typ: hochexplosiv</German>
+				<English>Capacity: 48 rounds&lt;br/&gt;M548 steel Mk 19 box&lt;br/&gt;Caliber: 40×53mm&lt;br/&gt;Type: High Explosive</English>
+				<Italian>Capacità: 48 cartucce&lt;br/&gt;M548 steel Mk 19 box&lt;br/&gt;Calibro: 40×53mm&lt;br/&gt;Tipo: High Explosive</Italian>
+				<Spanish>Capacidad: 48 cartuchos&lt;br/&gt;M548 steel Mk 19 box&lt;br/&gt;Calibre: 40 × 53 mm&lt;br/&gt;Tipo: alto explosivo</Spanish>
+				<French>Capacité: 48 cartouches&lt;br/&gt;M548 steel Mk 19 box&lt;br/&gt;;Calibre: 40×53mm&lt;br/&gt;Type: High Explosive</French>
+				<Czech>Kapacita: 48 rounds&lt;br/&gt;M548 steel Mk 19 box&lt;br/&gt;Ráže: 40×53mm&lt;br/&gt;Typ: High Explosive</Czech>
+				<Russian>Емкость: 48 выстрелов&lt;br/&gt;Стальной короб M548&lt;br/&gt;Калибр: 40 × 53 мм&lt;br/&gt;Тип: осколочный</Russian>
+				<Polish>Pojemność: 48 naboi&lt;br/&gt;M548 steel Mk 19 box&lt;br/&gt;Kaliber: 40 × 53 mm&lt;br/&gt;Rodzaj: odłamkowy</Polish>
+				<Hungarian>Tárkapacitás: 48 töltények&lt;br/&gt;M548 steel Mk 19 box&lt;br/&gt;Űrméret: 40×53mm&lt;br/&gt;Típus: High Explosive</Hungarian>
+			</Key>
+			<Key ID="STR_DN_VTN_MK19_M430A1_48b">
+				<German>M430A1 Mk 19-Gurtkasten</German>
+				<English>M430A1 Mk 19 box</English>
+				<Italian>M430A1 Mk 19 box</Italian>
+				<Spanish>Caja M430A1</Spanish>
+				<French>M430A1 Mk 19 box</French>
+				<Czech>M430A1 Mk 19 box</Czech>
+				<Russian>Короб M430A1 к Mk 19</Russian>
+				<Polish>Skrzynka M430A1</Polish>
+				<Hungarian>M430A1 Mk 19 box</Hungarian>
+			</Key>
+			<Key ID="STR_DS_VTN_MK19_M430A1_48b">
+				<German>Kapazität: 48 Schüsse&lt;br/&gt;M548-Stahlbox&lt;br/&gt;Kaliber: 40 × 53 mm&lt;br/&gt;Typ: hochexplosiv panzerbrechend</German>
+				<English>Capacity: 48 rounds&lt;br/&gt;M548 steel Mk 19 box&lt;br/&gt;Caliber: 40×53mm&lt;br/&gt;Type: High Explosive Dual Purpose</English>
+				<Italian>Capacità: 48 cartucce&lt;br/&gt;M548 steel Mk 19 box&lt;br/&gt;Calibro: 40×53mm&lt;br/&gt;Tipo: High Explosive Dual Purpose</Italian>
+				<Spanish>Capacidad: 48 cartuchos&lt;br/&gt;M548 steel Mk 19 box&lt;br/&gt;Calibre: 40 × 53 mm&lt;br/&gt;Tipo: alto explosivo de proposito dual</Spanish>
+				<French>Capacité: 48 cartouches&lt;br/&gt;M548 steel Mk 19 box&lt;br/&gt;;Calibre: 40×53mm&lt;br/&gt;Type: High Explosive Dual Purpose</French>
+				<Czech>Kapacita: 48 rounds&lt;br/&gt;M548 steel Mk 19 box&lt;br/&gt;Ráže: 40×53mm&lt;br/&gt;Typ: High Explosive Dual Purpose</Czech>
+				<Russian>Емкость: 48 выстрелов&lt;br/&gt;Стальной короб M548&lt;br/&gt;Калибр: 40 × 53 мм&lt;br/&gt;Тип: осколочный бронебойный</Russian>
+				<Polish>Pojemność: 48 naboi&lt;br/&gt;M548 steel Mk 19 box&lt;br/&gt;Kaliber: 40 × 53 mm&lt;br/&gt;Rodzaj: przeciwpancerno-odłamkowy</Polish>
+				<Hungarian>Tárkapacitás: 48 töltények&lt;br/&gt;M548 steel Mk 19 box&lt;br/&gt;Űrméret: 40×53mm&lt;br/&gt;Típus: High Explosive Dual Purpose</Hungarian>
+			</Key>
+			<Key ID="STR_DN_VTN_MK19_M1001_48b">
+				<German>M1001 Mk 19-Gurtkasten</German>
+				<English>M1001 Mk 19 box</English>
+				<Italian>M1001 Mk 19 box</Italian>
+				<Spanish>Caja M1001</Spanish>
+				<French>M1001 Mk 19 box</French>
+				<Czech>M1001 Mk 19 box</Czech>
+				<Russian>Короб M1001 к Mk 19</Russian>
+				<Polish>Skrzynka M1001</Polish>
+				<Hungarian>M1001 Mk 19 box</Hungarian>
+			</Key>
+			<Key ID="STR_DS_VTN_MK19_M1001_48b">
+				<German>Kapazität: 48 Schüsse&lt;br/&gt;M548-Stahlbox&lt;br/&gt;Kaliber: 40 × 53 mm&lt;br/&gt;Typ: Kartätsche</German>
+				<English>Capacity: 48 rounds&lt;br/&gt;M548 steel Mk 19 box&lt;br/&gt;Caliber: 40×53mm&lt;br/&gt;Type: Canister</English>
+				<Italian>Capacità: 48 cartucce&lt;br/&gt;M548 steel Mk 19 box&lt;br/&gt;Calibro: 40×53mm&lt;br/&gt;Tipo: Canister</Italian>
+				<Spanish>Capacidad: 48 cartuchos&lt;br/&gt;M548 steel Mk 19 box&lt;br/&gt;Calibre: 40 × 53 mm&lt;br/&gt;Tipo: bote de metralla</Spanish>
+				<French>Capacité: 48 cartouches&lt;br/&gt;M548 steel Mk 19 box&lt;br/&gt;;Calibre: 40×53mm&lt;br/&gt;Type: Canister</French>
+				<Czech>Kapacita: 48 rounds&lt;br/&gt;M548 steel Mk 19 box&lt;br/&gt;Ráže: 40×53mm&lt;br/&gt;Typ: Canister</Czech>
+				<Russian>Емкость: 48 выстрелов&lt;br/&gt;Стальной короб M548&lt;br/&gt;Калибр: 40 × 53 мм&lt;br/&gt;Тип: картечь</Russian>
+				<Polish>Pojemność: 48 naboi&lt;br/&gt;M548 steel Mk 19 box&lt;br/&gt;Kaliber: 40 × 53 mm&lt;br/&gt;Rodzaj: kartacz</Polish>
+				<Hungarian>Tárkapacitás: 48 töltények&lt;br/&gt;M548 steel Mk 19 box&lt;br/&gt;Űrméret: 40×53mm&lt;br/&gt;Típus: Canister</Hungarian>
+			</Key>
+		</Container>
+
+		<Container name="VTN_TRIPOD_MK19_ACTIONS">
+			<Key ID="STR_DN_LOAD_VTN_M384">
+				<German>M384-Gurtkasten laden</German>
+				<English>Load M384 box</English>
+				<Italian>Load M384 box</Italian>
+				<Spanish>Load M384 box</Spanish>
+				<French>Load M384 box</French>
+				<Czech>Load M384 box</Czech>
+				<Russian>Зарядить короб M384</Russian>
+				<Polish>Load M384 box</Polish>
+				<Hungarian>Load M384 box</Hungarian>
+			</Key>
+			<Key ID="STR_DN_LOAD_VTN_M430A1">
+				<German>M430A1-Gurtkasten laden</German>
+				<English>Load M430A1 box</English>
+				<Italian>Load M430A1 box</Italian>
+				<Spanish>Load M430A1 box</Spanish>
+				<French>Load M430A1 box</French>
+				<Czech>Load M430A1 box</Czech>
+				<Russian>Зарядить короб M430A1</Russian>
+				<Polish>Load M430A1 box</Polish>
+				<Hungarian>Load M430A1 box</Hungarian>
+			</Key>
+			<Key ID="STR_DN_LOAD_VTN_M1001">
+				<German>M1001-Gurtkasten laden</German>
+				<English>Load M1001 box</English>
+				<Italian>Load M1001 box</Italian>
+				<Spanish>Load M1001 box</Spanish>
+				<French>Load M1001 box</French>
+				<Czech>Load M1001 box</Czech>
+				<Russian>Зарядить короб M1001</Russian>
+				<Polish>Load M1001 box</Polish>
+				<Hungarian>Load M1001 box</Hungarian>
+			</Key>
+		</Container>
+	</Package>
+</Project>
