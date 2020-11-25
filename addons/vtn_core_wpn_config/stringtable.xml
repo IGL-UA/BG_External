@@ -1,0 +1,2054 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project name="Arma3">
+	<Package name="VTN">
+		<Container name="VTN_FIRE_MODES">
+			<Key ID="STR_DN_VTN_SAFE">
+				<German>SICHERUNG</German>
+				<English>SAFE</English>
+				<Italian>SAFE</Italian>
+				<Spanish>SEGURO</Spanish>
+				<French>SAFE</French>
+				<Czech>SAFE</Czech>
+				<Russian>ЗАПОБІЖНИК</Russian>
+				<Polish>BEZPIECZNIK</Polish>
+				<Hungarian>SAFE</Hungarian>
+			</Key>
+		</Container>
+		
+		<Container name="VTN_FIRE_MODES_EAST">
+			<Key ID="STR_DN_VTN_AKOD">
+				<German>OD</German>
+				<English>OD</English>
+				<Italian>OD</Italian>
+				<Spanish>OD</Spanish>
+				<French>OD</French>
+				<Czech>OD</Czech>
+				<Russian>ОД</Russian>
+				<Polish>OD</Polish>
+				<Hungarian>OD</Hungarian>
+			</Key>
+			<Key ID="STR_DN_VTN_AKAV">
+				<German>AW</German>
+				<English>AV</English>
+				<Italian>AV</Italian>
+				<Spanish>AV</Spanish>
+				<French>AV</French>
+				<Czech>AV</Czech>
+				<Russian>АВ</Russian>
+				<Polish>AW</Polish>
+				<Hungarian>AV</Hungarian>
+			</Key>
+		</Container>
+		
+		<Container name="VTN_FIRE_MODES_WEST">
+			<Key ID="STR_DN_VTN_CSEMI">
+				<German>SEMI</German>
+				<English>SEMI</English>
+				<Italian>SEMI</Italian>
+				<Spanish>TIRO</Spanish>
+				<French>SEMI</French>
+				<Czech>SEMI</Czech>
+				<Russian>ОД</Russian>
+				<Polish>POJEDYNCZY</Polish>
+				<Hungarian>SEMI</Hungarian>
+			</Key>
+			<Key ID="STR_DN_VTN_CBURST">
+				<German>BURST</German>
+				<English>BURST</English>
+				<Italian>BURST</Italian>
+				<Spanish>RAFAGA</Spanish>
+				<French>BURST</French>
+				<Czech>BURST</Czech>
+				<Russian>ОЧ</Russian>
+				<Polish>SERIA</Polish>
+				<Hungarian>BURST</Hungarian>
+			</Key>
+			<Key ID="STR_DN_VTN_CAUTO">
+				<German>AUTO</German>
+				<English>AUTO</English>
+				<Italian>AUTO</Italian>
+				<Spanish>AUTO</Spanish>
+				<French>AUTO</French>
+				<Czech>AUTO</Czech>
+				<Russian>АВ</Russian>
+				<Polish>AUTOMATYCZNY</Polish>
+				<Hungarian>AUTO</Hungarian>
+			</Key>
+		</Container>
+		
+		<Container name="VTN_TRIPOD_ACTIONS">
+			<Key ID="STR_DN_ROTATE_LEFT">
+				<German>Dreibein nach links drehen</German>
+				<English>Turn tripod to the left</English>
+				<Italian>Turn tripod to the left</Italian>
+				<Spanish>Girar tripode hacia la izquierda</Spanish>
+				<French>Turn tripod to the left</French>
+				<Czech>Turn tripod to the left</Czech>
+				<Russian>Розвернути станок вліво</Russian>
+				<Polish>Obróć trójnóg w lewo</Polish>
+				<Hungarian>Turn tripod to the left</Hungarian>
+			</Key>
+			<Key ID="STR_DN_ROTATE_RIGHT">
+				<German>Dreibein nach rechts drehen</German>
+				<English>Turn tripod to the right</English>
+				<Italian>Turn tripod to the right</Italian>
+				<Spanish>Girar tripode hacia la derecha</Spanish>
+				<French>Turn tripod to the right</French>
+				<Czech>Turn tripod to the right</Czech>
+				<Russian>Развернути станок вправо</Russian>
+				<Polish>Obróć trójnóg w prawo</Polish>
+				<Hungarian>Turn tripod to the right</Hungarian>
+			</Key>
+			<Key ID="STR_DN_ROTATE_CENTER">
+				<German>In Ausgangsposition</German>
+				<English>In starting position</English>
+				<Italian>In starting position</Italian>
+				<Spanish>Posición inicial</Spanish>
+				<French>In starting position</French>
+				<Czech>In starting position</Czech>
+				<Russian>Вернути на вихідну</Russian>
+				<Polish>W położeniu początkowym</Polish>
+				<Hungarian>In starting position</Hungarian>
+			</Key>
+			<Key ID="STR_DN_UP_LOWER">
+				<German>Dreibein niedriger aufstellen</German>
+				<English>Up tripod lower</English>
+				<Italian>Up tripod lower</Italian>
+				<Spanish>Up tripod lower</Spanish>
+				<French>Up tripod lower</French>
+				<Czech>Up tripod lower</Czech>
+				<Russian>Встановити станок нижче</Russian>
+				<Polish>Ustaw trójnóg niżej</Polish>
+				<Hungarian>Set up tripod lower</Hungarian>
+			</Key>
+			<Key ID="STR_DN_UP_HIGHER">
+				<German>Dreibein höher aufstellen</German>
+				<English>Up tripod higher</English>
+				<Italian>Up tripod higher</Italian>
+				<Spanish>Up tripod higher</Spanish>
+				<French>Up tripod higher</French>
+				<Czech>Up tripod higher</Czech>
+				<Russian>Встановити станок вище</Russian>
+				<Polish>Ustaw trójnóg wyżej</Polish>
+				<Hungarian>Set up tripod higher</Hungarian>
+			</Key>
+			<Key ID="STR_DN_UNLOAD_STATICWEAPON">
+				<German>Waffe entladen</German>
+				<English>Unload weapon</English>
+				<Italian>Unload weapon</Italian>
+				<Spanish>Descargar arma</Spanish>
+				<French>Unload weapon</French>
+				<Czech>Vyložte zbraň</Czech>
+				<Russian>Розрядити зброю</Russian>
+				<Polish>Rozładuj broń</Polish>
+				<Hungarian>Unload weapon</Hungarian>
+			</Key>
+		</Container>
+		
+		<Container name="VTN_MUZZLES">
+			<Key ID="STR_VTN_MUZZLE_HANDGRENADE">
+				<German>Splittergranate</German>
+				<English>Frag grenade</English>
+				<Italian>Frag grenade</Italian>
+				<Spanish>Granada de fragmentación</Spanish>
+				<French>Frag grenade</French>
+				<Czech>Frag grenade</Czech>
+				<Russian>Осколочная граната</Russian>
+				<Polish>Granat odłamkowy</Polish>
+				<Hungarian>Frag grenade</Hungarian>
+			</Key>
+			<Key ID="STR_VTN_MUZZLE_SMOKEGRENADE">
+				<German>Rauchgranate</German>
+				<English>Smoke grenade</English>
+				<Italian>Smoke grenade</Italian>
+				<Spanish>Granada de humo</Spanish>
+				<French>Smoke grenade</French>
+				<Czech>Smoke grenade</Czech>
+				<Russian>Дымовая граната</Russian>
+				<Polish>Granat dymny</Polish>
+				<Hungarian>Smoke grenade</Hungarian>
+			</Key>
+			<Key ID="STR_VTN_MUZZLE_INCENDIARYGRENADE">
+				<German>Brandgranate</German>
+				<English>incendiary grenade</English>
+				<Italian>incendiary grenade</Italian>
+				<Spanish>Granada incendiaria</Spanish>
+				<French>incendiary grenade</French>
+				<Czech>incendiary grenade</Czech>
+				<Russian>Зажигательная граната</Russian>
+				<Polish>Granat zapalający</Polish>
+				<Hungarian>incendiary grenade</Hungarian>
+			</Key>
+			<Key ID="STR_VTN_MUZZLE_SMOKESHELL">
+				<German>Rauchpatrone</German>
+				<English>Smoke shell</English>
+				<Italian>Smoke shell</Italian>
+				<Spanish>Smoke shell</Spanish>
+				<French>Smoke shell</French>
+				<Czech>Smoke shell</Czech>
+				<Russian>Дымовая шашка</Russian>
+				<Polish>Naboj dymny</Polish>
+				<Hungarian>Smoke shell</Hungarian>
+			</Key>
+			<Key ID="STR_VTN_MUZZLE_SIGNALCARTRIDGE">
+				<German>Signalpatrone</German>
+				<English>Signal cartridge</English>
+				<Italian>Signal cartridge</Italian>
+				<Spanish>Signal cartridge</Spanish>
+				<French>Signal cartridge</French>
+				<Czech>Signal cartridge</Czech>
+				<Russian>Сигнальная шашка</Russian>
+				<Polish>Naboj sygnałowy</Polish>
+				<Hungarian>Signal cartridge</Hungarian>
+			</Key>
+		</Container>
+
+		<Container name="VTN_MAGS_AND_CARTRIDGES">
+			<Key ID="STR_DN_VTN_9x18_FMJ">
+				<German>9 × 18 mm VM</German>
+				<English>9×18mm FMJ</English>
+				<Italian>9×18 FMJ</Italian>
+				<Spanish>9 × 18 mm FMJ</Spanish>
+				<French>9×18mm FMJ</French>
+				<Czech>9 × 18mm FMJ</Czech>
+				<Russian>9 × 18 мм FMJ</Russian>
+				<Polish>9 × 18 mm FMJ</Polish>
+				<Hungarian>9×18mm FMJ</Hungarian>
+			</Key>
+			<Key ID="STR_DN_VTN_9x18_PST">
+				<German>9 × 18 Pst</German>
+				<English>9×18 Pst</English>
+				<Italian>9×18 Pst</Italian>
+				<Spanish>9 × 18 Pst</Spanish>
+				<French>9×18 Pst</French>
+				<Czech>9 × 18 Pst</Czech>
+				<Russian>9 × 18 Пст</Russian>
+				<Polish>9 × 18 Pst</Polish>
+				<Hungarian>9×18 Pst</Hungarian>
+			</Key>
+			<Key ID="STR_DN_VTN_9x18_PT">
+				<German>9 × 18 PT</German>
+				<English>9×18 PT</English>
+				<Italian>9×18 PT</Italian>
+				<Spanish>9 × 18 PT</Spanish>
+				<French>9×18 PT</French>
+				<Czech>9 × 18 PT</Czech>
+				<Russian>9 × 18 ПТ</Russian>
+				<Polish>9 × 18 PT</Polish>
+				<Hungarian>9×18 PT</Hungarian>
+			</Key>
+			<Key ID="STR_DN_VTN_9x18_RG028">
+				<German>9 × 18 RG028</German>
+				<English>9×18 RG028</English>
+				<Italian>9×18 RG028</Italian>
+				<Spanish>9 × 18 RG028</Spanish>
+				<French>9×18 RG028</French>
+				<Czech>9 × 18 RG028</Czech>
+				<Russian>9 × 18 РГ028</Russian>
+				<Polish>9 × 18 RG028</Polish>
+				<Hungarian>9×18 RG028</Hungarian>
+			</Key>
+			<Key ID="STR_DN_VTN_9x18_PBM">
+				<German>9 × 18 PBM</German>
+				<English>9×18 PBM</English>
+				<Italian>9×18 PBM</Italian>
+				<Spanish>9 × 18 PBM</Spanish>
+				<French>9×18 PBM</French>
+				<Czech>9 × 18 PBM</Czech>
+				<Russian>9 × 18 ПБМ</Russian>
+				<Polish>9 × 18 PBM</Polish>
+				<Hungarian>9×18 PBM</Hungarian>
+			</Key>
+			<Key ID="STR_DN_VTN_9_PRS">
+				<German>9 PRS</German>
+				<English>9 PRS</English>
+				<Italian>9 PRS</Italian>
+				<Spanish>9 PRS</Spanish>
+				<French>9 PRS</French>
+				<Czech>9 PRS</Czech>
+				<Russian>9 ПРС</Russian>
+				<Polish>9 PRS</Polish>
+				<Hungarian>9 PRS</Hungarian>
+			</Key>
+			<Key ID="STR_DN_VTN_9_PP">
+				<German>9 PP</German>
+				<English>9 PP</English>
+				<Italian>9 PP</Italian>
+				<Spanish>9 PP</Spanish>
+				<French>9 PP</French>
+				<Czech>9 PP</Czech>
+				<Russian>9 ПП</Russian>
+				<Polish>9 PP</Polish>
+				<Hungarian>9 PP</Hungarian>
+			</Key>
+			<Key ID="STR_DN_VTN_9x18_SP7">
+				<German>9 × 18 SP-7</German>
+				<English>9×18 SP-7</English>
+				<Italian>9×18 SP-7</Italian>
+				<Spanish>9 × 18 SP-7</Spanish>
+				<French>9×18 SP-7</French>
+				<Czech>9 × 18 SP-7</Czech>
+				<Russian>9 × 18 СП-7</Russian>
+				<Polish>9 × 18 SP-7</Polish>
+				<Hungarian>9×18 SP-7</Hungarian>
+			</Key>
+			<Key ID="STR_DN_VTN_9x18_SP8">
+				<German>9 × 18 SP-8</German>
+				<English>9×18 SP-8</English>
+				<Italian>9×18 SP-8</Italian>
+				<Spanish>9 × 18 SP-8</Spanish>
+				<French>9×18 SP-8</French>
+				<Czech>9 × 18 SP-8</Czech>
+				<Russian>9 × 18 СП-8</Russian>
+				<Polish>9 × 18 SP-8</Polish>
+				<Hungarian>9×18 SP-8</Hungarian>
+			</Key>
+
+			<Key ID="STR_DN_VTN_9x19_PSO">
+				<German>9 × 19 PSO</German>
+				<English>9×19 PSO</English>
+				<Italian>9×19 PSO</Italian>
+				<Spanish>9 × 19 PSO</Spanish>
+				<French>9×19 PSO</French>
+				<Czech>9 × 19 PSO</Czech>
+				<Russian>9 × 19 ПСО</Russian>
+				<Polish>9 × 19 PSO</Polish>
+				<Hungarian>9×19 PSO</Hungarian>
+			</Key>
+			<Key ID="STR_DN_VTN_9x19_PS">
+				<German>9 × 19 PS</German>
+				<English>9×19 PS</English>
+				<Italian>9×19 PS</Italian>
+				<Spanish>9 × 19 PS</Spanish>
+				<French>9×19 PS</French>
+				<Czech>9 × 19 PS</Czech>
+				<Russian>9 × 19 ПС</Russian>
+				<Polish>9 × 19 PS</Polish>
+				<Hungarian>9×19 PS</Hungarian>
+			</Key>
+			<Key ID="STR_DN_VTN_9x19_PBP">
+				<German>9 × 19 PBP</German>
+				<English>9×19 PBP</English>
+				<Italian>9×19 PBP</Italian>
+				<Spanish>9 × 19 PBP</Spanish>
+				<French>9×19 PBP</French>
+				<Czech>9 × 19 PBP</Czech>
+				<Russian>9 × 19 ПБП</Russian>
+				<Polish>9 × 19 PBP</Polish>
+				<Hungarian>9×19 PBP</Hungarian>
+			</Key>
+
+			<Key ID="STR_DN_VTN_9x39_SC">
+				<German>SP-5</German>
+				<English>SP-5</English>
+				<Italian>SP-5</Italian>
+				<Spanish>SP-5</Spanish>
+				<French>SP-5</French>
+				<Czech>SP-5</Czech>
+				<Russian>СП-5</Russian>
+				<Polish>SP-5</Polish>
+				<Hungarian>SP-5</Hungarian>
+			</Key>
+			<Key ID="STR_DN_VTN_9x39_SC2">
+				<German>SPP</German>
+				<English>SPP</English>
+				<Italian>SPP</Italian>
+				<Spanish>SPP</Spanish>
+				<French>SPP</French>
+				<Czech>SPP</Czech>
+				<Russian>СПП</Russian>
+				<Polish>SPP</Polish>
+				<Hungarian>SPP</Hungarian>
+			</Key>
+			<Key ID="STR_DN_VTN_9x39_AP">
+				<German>SP-6</German>
+				<English>SP-6</English>
+				<Italian>SP-6</Italian>
+				<Spanish>SP-6</Spanish>
+				<French>SP-6</French>
+				<Czech>SP-6</Czech>
+				<Russian>CП-6</Russian>
+				<Polish>SP-6</Polish>
+				<Hungarian>SP-6</Hungarian>
+			</Key>
+			<Key ID="STR_DN_VTN_9x39_AP2">
+				<German>BP</German>
+				<English>BP</English>
+				<Italian>BP</Italian>
+				<Spanish>BP</Spanish>
+				<French>BP</French>
+				<Czech>BP</Czech>
+				<Russian>БП</Russian>
+				<Polish>BP</Polish>
+				<Hungarian>BP</Hungarian>
+			</Key>
+			
+			<Key ID="STR_DN_VTN_5.45x39_SC">
+				<German>5,45 PP</German>
+				<English>5.45 PP</English>
+				<Italian>5.45 PP</Italian>
+				<Spanish>5,45 PP</Spanish>
+				<French>5.45 PP</French>
+				<Czech>5.45 PP</Czech>
+				<Russian>5,45 ПП</Russian>
+				<Polish>5,45 PP</Polish>
+				<Hungarian>5.45 PP</Hungarian>
+			</Key>
+			<Key ID="STR_DN_VTN_5.45x39_SC2">
+				<German>5,45 PS</German>
+				<English>5.45 PS</English>
+				<Italian>5.45 PS</Italian>
+				<Spanish>5,45 PS</Spanish>
+				<French>5.45 PS</French>
+				<Czech>5.45 PS</Czech>
+				<Russian>5,45 ПС</Russian>
+				<Polish>5,45 PS</Polish>
+				<Hungarian>5.45 PS</Hungarian>
+			</Key>
+			<Key ID="STR_DN_VTN_5.45x39_TRC">
+				<German>5,45 TM</German>
+				<English>5.45 TM</English>
+				<Italian>5.45 TM</Italian>
+				<Spanish>5,45 TM</Spanish>
+				<French>5.45 TM</French>
+				<Czech>5.45 TM</Czech>
+				<Russian>5,45 ТМ</Russian>
+				<Polish>5,45 TM</Polish>
+				<Hungarian>5.45 TM</Hungarian>
+			</Key>
+			<Key ID="STR_DN_VTN_5.45x39_TRC2">
+				<German>5,45 T</German>
+				<English>5.45 T</English>
+				<Italian>5.45 T</Italian>
+				<Spanish>5,45 T</Spanish>
+				<French>5.45 T</French>
+				<Czech>5.45 T</Czech>
+				<Russian>5,45 Т</Russian>
+				<Polish>5,45 T</Polish>
+				<Hungarian>5.45 T</Hungarian>
+			</Key>
+			<Key ID="STR_DN_VTN_5.45x39_AP">
+				<German>5,45 BP</German>
+				<English>5.45 BP</English>
+				<Italian>5.45 BP</Italian>
+				<Spanish>5,45 BP</Spanish>
+				<French>5.45 BP</French>
+				<Czech>5.45 BP</Czech>
+				<Russian>5,45 БП</Russian>
+				<Polish>5,45 BP</Polish>
+				<Hungarian>5.45 BP</Hungarian>
+			</Key>
+			<Key ID="STR_DN_VTN_5.45x39_AP2">
+				<German>5,45 BS</German>
+				<English>5.45 BS</English>
+				<Italian>5.45 BS</Italian>
+				<Spanish>5,45 BS</Spanish>
+				<French>5.45 BS</French>
+				<Czech>5.45 BS</Czech>
+				<Russian>5,45 БС</Russian>
+				<Polish>5,45 BS</Polish>
+				<Hungarian>5.45 BS</Hungarian>
+			</Key>
+			<Key ID="STR_DN_VTN_5.45x39_SS">
+				<German>5,45 US</German>
+				<English>5.45 US</English>
+				<Italian>5.45 US</Italian>
+				<Spanish>5,45 US</Spanish>
+				<French>5.45 US</French>
+				<Czech>5.45 US</Czech>
+				<Russian>5,45 УС</Russian>
+				<Polish>5,45 US</Polish>
+				<Hungarian>5.45 US</Hungarian>
+			</Key>
+			
+			<Key ID="STR_DN_VTN_7.62x42.5_SS">
+				<German>SP-4</German>
+				<English>SP-4</English>
+				<Italian>SP-4</Italian>
+				<Spanish>SP-4</Spanish>
+				<French>SP-4</French>
+				<Czech>SP-4</Czech>
+				<Russian>СП-4</Russian>
+				<Polish>SP-4</Polish>
+				<Hungarian>SP-4</Hungarian>
+			</Key>
+			
+			<Key ID="STR_DN_VTN_7.62x25_FMJ1">
+				<German>7,62 mm Tokarew VM</German>
+				<English>7.62mm Tokarev FMJ</English>
+				<Italian>7.62mm Tokarev FMJ</Italian>
+				<Spanish>7,62 mm Tókarev FMJ</Spanish>
+				<French>7.62mm Tokarev FMJ</French>
+				<Czech>7,62 mm Tokarev FMJ</Czech>
+				<Russian>7,62 × 25 FMJ</Russian>
+				<Polish>7,62 mm TT FMJ</Polish>
+				<Hungarian>7.62mm Tokarev FMJ</Hungarian>
+			</Key>
+			<Key ID="STR_DN_VTN_7.62x25_FMJ">
+				<German>7,62 P</German>
+				<English>7.62 P</English>
+				<Italian>7.62 P</Italian>
+				<Spanish>7,62 P</Spanish>
+				<French>7.62 P</French>
+				<Czech>7.62 P</Czech>
+				<Russian>7,62 П</Russian>
+				<Polish>7,62 P</Polish>
+				<Hungarian>7.62 P</Hungarian>
+			</Key>
+			<Key ID="STR_DN_VTN_7.62x25_SC">
+				<German>7,62 Pst</German>
+				<English>7.62 Pst</English>
+				<Italian>7.62 Pst</Italian>
+				<Spanish>7,62 Pst</Spanish>
+				<French>7.62 Pst</French>
+				<Czech>7.62 Pst</Czech>
+				<Russian>7,62 Пст</Russian>
+				<Polish>7,62 Pst</Polish>
+				<Hungarian>7.62 Pst</Hungarian>
+			</Key>
+			<Key ID="STR_DN_VTN_7.62x25_TRC">
+				<German>7,62 PT</German>
+				<English>7.62 PT</English>
+				<Italian>7.62 PT</Italian>
+				<Spanish>7,62 PT</Spanish>
+				<French>7.62 PT</French>
+				<Czech>7.62 PT</Czech>
+				<Russian>7,62 ПТ</Russian>
+				<Polish>7,62 PT</Polish>
+				<Hungarian>7.62 PT</Hungarian>
+			</Key>
+			
+			<Key ID="STR_DN_VTN_7.62x39_SC">
+				<German>7,62 PS</German>
+				<English>7.62 PS</English>
+				<Italian>7.62 PS</Italian>
+				<Spanish>7,62 PS</Spanish>
+				<French>7.62 PS</French>
+				<Czech>7.62 PS</Czech>
+				<Russian>7,62 ПС</Russian>
+				<Polish>7,62 PS</Polish>
+				<Hungarian>7.62 PS</Hungarian>
+			</Key>
+			<Key ID="STR_DN_VTN_7.62x39_TRC">
+				<German>7,62 T-45M</German>
+				<English>7.62 T-45M</English>
+				<Italian>7.62 T-45M</Italian>
+				<Spanish>7,62 T-45M</Spanish>
+				<French>7.62 T-45M</French>
+				<Czech>7.62 T-45M</Czech>
+				<Russian>7,62 Т-45М</Russian>
+				<Polish>7,62 T-45M</Polish>
+				<Hungarian>7.62 T-45M</Hungarian>
+			</Key>
+			<Key ID="STR_DN_VTN_7.62x39_TRC2">
+				<German>7,62 T-46M1</German>
+				<English>7.62 T-46M1</English>
+				<Italian>7,62 T-46M1</Italian>
+				<Spanish>7,62 T-46M1</Spanish>
+				<French>7,62 T-46M1</French>
+				<Czech>7,62 T-46M1</Czech>
+				<Russian>7,62 Т-46М1</Russian>
+				<Polish>7,62 T-46M1</Polish>
+				<Hungarian>7,62 T-46M1</Hungarian>
+			</Key>
+			<Key ID="STR_DN_VTN_7.62x39_AP">
+				<German>7,62 BP</German>
+				<English>7.62 BP</English>
+				<Italian>7.62 BP</Italian>
+				<Spanish>7,62 BP</Spanish>
+				<French>7.62 BP</French>
+				<Czech>7.62 BP</Czech>
+				<Russian>7,62 БП</Russian>
+				<Polish>7,62 BP</Polish>
+				<Hungarian>7.62 BP</Hungarian>
+			</Key>
+			<Key ID="STR_DN_VTN_7.62x39_API">
+				<German>7,62 BS</German>
+				<English>7.62 BZ</English>
+				<Italian>7.62 BZ</Italian>
+				<Spanish>7,62 BZ</Spanish>
+				<French>7.62 BZ</French>
+				<Czech>7.62 BZ</Czech>
+				<Russian>7,62 БЗ</Russian>
+				<Polish>7,62 BZ</Polish>
+				<Hungarian>7.62 BZ</Hungarian>
+			</Key>
+			<Key ID="STR_DN_VTN_7.62x39_INC">
+				<German>7,62 S</German>
+				<English>7.62 Z</English>
+				<Italian>7.62 Z</Italian>
+				<Spanish>7,62 Z</Spanish>
+				<French>7.62 Z</French>
+				<Czech>7.62 Z</Czech>
+				<Russian>7,62 З</Russian>
+				<Polish>7,62 Z</Polish>
+				<Hungarian>7.62 Z</Hungarian>
+			</Key>
+			<Key ID="STR_DN_VTN_7.62x39_SS">
+				<German>7,62 US</German>
+				<English>7.62 US</English>
+				<Italian>7.62 US</Italian>
+				<Spanish>7,62 US</Spanish>
+				<French>7.62 US</French>
+				<Czech>7.62 US</Czech>
+				<Russian>7,62 УС</Russian>
+				<Polish>7,62 US</Polish>
+				<Hungarian>7.62 US</Hungarian>
+			</Key>
+			<Key ID="STR_DN_VTN_7.62x39_PRS">
+				<German>7,62 PRS</German>
+				<English>7.62 PRS</English>
+				<Italian>7.62 PRS</Italian>
+				<Spanish>7,62 PRS</Spanish>
+				<French>7.62 PRS</French>
+				<Czech>7.62 PRS</Czech>
+				<Russian>7,62 ПРС</Russian>
+				<Polish>7,62 PRS</Polish>
+				<Hungarian>7.62 PRS</Hungarian>
+			</Key>
+
+			<Key ID="STR_DN_VTN_7.62x39_SC2">
+				<German>7,62 LPS</German>
+				<English>7.62 LPS</English>
+				<Italian>7.62 LPS</Italian>
+				<Spanish>7,62 LPS</Spanish>
+				<French>7.62 LPS</French>
+				<Czech>7.62 LPS</Czech>
+				<Russian>7,62 ЛПС</Russian>
+				<Polish>7,62 LPS</Polish>
+				<Hungarian>7.62 LPS</Hungarian>
+			</Key>
+			<Key ID="STR_DN_VTN_7.62x39_TRC2">
+				<German>7,62 T-46M1</German>
+				<English>7.62 T-46M1</English>
+				<Italian>7.62 T-46M1</Italian>
+				<Spanish>7,62 T-46M1</Spanish>
+				<French>7.62 T-46M1</French>
+				<Czech>7.62 T-46M1</Czech>
+				<Russian>7,62 Т-46М1</Russian>
+				<Polish>7,62 T-46M1</Polish>
+				<Hungarian>7.62 T-46M1</Hungarian>
+			</Key>
+			<Key ID="STR_DN_VTN_7.62x39_AP3">
+				<German>7,62 SNB</German>
+				<English>7.62 SNB</English>
+				<Italian>7.62 SNB</Italian>
+				<Spanish>7,62 SNB</Spanish>
+				<French>7.62 SNB</French>
+				<Czech>7.62 SNB</Czech>
+				<Russian>7,62 СНБ</Russian>
+				<Polish>7,62 SNB</Polish>
+				<Hungarian>7.62 SNB</Hungarian>
+			</Key>
+			<Key ID="STR_DN_VTN_7.62x39_API2">
+				<German>7,62 BST</German>
+				<English>7.62 BZT</English>
+				<Italian>7.62 BZT</Italian>
+				<Spanish>7,62 BZT</Spanish>
+				<French>7.62 BZT</French>
+				<Czech>7.62 BZT</Czech>
+				<Russian>7,62 БЗТ</Russian>
+				<Polish>7,62 BZT</Polish>
+				<Hungarian>7.62 BZT</Hungarian>
+			</Key>
+			
+			<Key ID="STR_DN_VTN_7.62x39_FMJ">
+				<German>7,62 × 39 VM</German>
+				<English>7.62×39 FMJ</English>
+				<Italian>7.62×39 FMJ</Italian>
+				<Spanish>7,62 × 39 FMJ</Spanish>
+				<French>7.62×39 FMJ</French>
+				<Czech>7,62 × 39 FMJ</Czech>
+				<Russian>7,62 × 39 FMJ</Russian>
+				<Polish>7,62 × 39 FMJ</Polish>
+				<Hungarian>7.62×39 FMJ</Hungarian>
+			</Key>
+			<Key ID="STR_DN_VTN_7.62x39_SP">
+				<German>7,62 × 39 TM</German>
+				<English>7.62×39 SP</English>
+				<Italian>7.62×39 SP</Italian>
+				<Spanish>7,62 × 39 SP</Spanish>
+				<French>7.62×39 SP</French>
+				<Czech>7,62 × 39 SP</Czech>
+				<Russian>7,62 × 39 SP</Russian>
+				<Polish>7,62 × 39 SP</Polish>
+				<Hungarian>7.62×39 SP</Hungarian>
+			</Key>
+			<Key ID="STR_DN_VTN_7.62x39_HP">
+				<German>7,62 × 39 HS</German>
+				<English>7.62×39 HP</English>
+				<Italian>7.62×39 HP</Italian>
+				<Spanish>7,62 × 39 HP</Spanish>
+				<French>7.62×39 HP</French>
+				<Czech>7,62 × 39 HP</Czech>
+				<Russian>7,62 × 39 HP</Russian>
+				<Polish>7,62 × 39 HP</Polish>
+				<Hungarian>7.62×39 HP</Hungarian>
+			</Key>
+			<Key ID="STR_DN_VTN_7.62x54_SC">
+				<German>7,62 LPS</German>
+				<English>7.62 LPS</English>
+				<Italian>7.62 LPS</Italian>
+				<Spanish>7,62 LPS</Spanish>
+				<French>7.62 LPS</French>
+				<Czech>7.62 LPS</Czech>
+				<Russian>7,62 ЛПС</Russian>
+				<Polish>7,62 LPS</Polish>
+				<Hungarian>7.62 LPS</Hungarian>
+			</Key>
+			<Key ID="STR_DN_VTN_7.62x54_TRC">
+				<German>7,62 T-46M1</German>
+				<English>7.62 T-46M1</English>
+				<Italian>7.62 T-46M1</Italian>
+				<Spanish>7,62 T-46M1</Spanish>
+				<French>7.62 T-46M1</French>
+				<Czech>7.62 T-46M1</Czech>
+				<Russian>7,62 Т-46М1</Russian>
+				<Polish>7,62 T-46M1</Polish>
+				<Hungarian>7.62 T-46M1</Hungarian>
+			</Key>
+			<Key ID="STR_DN_VTN_7.62x54_AP">
+				<German>7,62 SNB</German>
+				<English>7.62 SNB</English>
+				<Italian>7.62 SNB</Italian>
+				<Spanish>7,62 SNB</Spanish>
+				<French>7.62 SNB</French>
+				<Czech>7.62 SNB</Czech>
+				<Russian>7,62 СНБ</Russian>
+				<Polish>7,62 SNB</Polish>
+				<Hungarian>7.62 SNB</Hungarian>
+			</Key>
+			<Key ID="STR_DN_VTN_7.62x54_API">
+				<German>7,62 BST</German>
+				<English>7.62 BZT</English>
+				<Italian>7.62 BZT</Italian>
+				<Spanish>7,62 BZT</Spanish>
+				<French>7.62 BZT</French>
+				<Czech>7.62 BZT</Czech>
+				<Russian>7,62 БЗТ</Russian>
+				<Polish>7,62 BZT</Polish>
+				<Hungarian>7.62 BZT</Hungarian>
+			</Key>
+			<Key ID="STR_DN_VTN_12_70_GAUGE">
+				<German>12/70</German>
+				<English>12/70</English>
+				<Italian>12/70</Italian>
+				<Spanish>12/70</Spanish>
+				<French>12/70</French>
+				<Czech>12/70</Czech>
+				<Russian>12/70</Russian>
+				<Polish>12/70</Polish>
+				<Hungarian>12/70</Hungarian>
+			</Key>
+			<Key ID="STR_DN_VTN_12_70_SLUG">
+				<German>12/70 slug</German>
+				<English>12/70 slug</English>
+				<Italian>12/70 slug</Italian>
+				<Spanish>12/70 slug</Spanish>
+				<French>12/70 slug</French>
+				<Czech>12/70 slug</Czech>
+				<Russian>12/70 пуля</Russian>
+				<Polish>12/70 slug</Polish>
+				<Hungarian>12/70 slug</Hungarian>
+			</Key>
+			<Key ID="STR_DN_VTN_12_76_GAUGE">
+				<German>12/76 Magnum</German>
+				<English>12/76 Magnum</English>
+				<Italian>12/76 Magnum</Italian>
+				<Spanish>12/76 Magnum</Spanish>
+				<French>12/76 Magnum</French>
+				<Czech>12/76 Magnum</Czech>
+				<Russian>12/76 магнум</Russian>
+				<Polish>12/76 Magnum</Polish>
+				<Hungarian>12/76 Magnum</Hungarian>
+			</Key>
+			<Key ID="STR_DN_VTN_20_70_GAUGE">
+				<German>20/70</German>
+				<English>20/70</English>
+				<Italian>20/70</Italian>
+				<Spanish>20/70</Spanish>
+				<French>20/70</French>
+				<Czech>20/70</Czech>
+				<Russian>20/70</Russian>
+				<Polish>20/70</Polish>
+				<Hungarian>20/70</Hungarian>
+			</Key>
+			<Key ID="STR_DN_VTN_20_67.5_GAUGE">
+				<German>20/67,5</German>
+				<English>20/67.5</English>
+				<Italian>20/67.5</Italian>
+				<Spanish>20/67,5</Spanish>
+				<French>20/67.5</French>
+				<Czech>20/67,5</Czech>
+				<Russian>20/67,5</Russian>
+				<Polish>20/67,5</Polish>
+				<Hungarian>20/67.5</Hungarian>
+			</Key>
+			<Key ID="STR_DN_VTN_20_70_SLUG">
+				<German>20/70 slug</German>
+				<English>20/70 slug</English>
+				<Italian>20/70 slug</Italian>
+				<Spanish>20/70 slug</Spanish>
+				<French>20/70 slug</French>
+				<Czech>20/70 slug</Czech>
+				<Russian>20/70 пуля</Russian>
+				<Polish>20/70 slug</Polish>
+				<Hungarian>20/70 slug</Hungarian>
+			</Key>
+			<Key ID="STR_DN_VTN_20_76_GAUGE">
+				<German>20/76 Magnum</German>
+				<English>20/76 Magnum</English>
+				<Italian>20/76 Magnum</Italian>
+				<Spanish>20/76 Magnum</Spanish>
+				<French>20/76 Magnum</French>
+				<Czech>20/76 Magnum</Czech>
+				<Russian>20/76 магнум</Russian>
+				<Polish>20/76 Magnum</Polish>
+				<Hungarian>20/76 Magnum</Hungarian>
+			</Key>
+			
+			<Key ID="STR_DN_VTN_12.7x108_SN">
+				<German>12,7 SN</German>
+				<English>12.7 SN</English>
+				<Italian>12.7 SN</Italian>
+				<Spanish>12,7 SN</Spanish>
+				<French>12.7 SN</French>
+				<Czech>12,7 SN</Czech>
+				<Russian>12,7 СН</Russian>
+				<Polish>12,7 SN</Polish>
+				<Hungarian>12.7 SN</Hungarian>
+			</Key>
+			<Key ID="STR_DN_VTN_12.7x108_API">
+				<German>12,7 BST-44M</German>
+				<English>12.7 BZT-44M</English>
+				<Italian>12.7 BZT-44M</Italian>
+				<Spanish>12,7 BZT-44M</Spanish>
+				<French>12.7 BZT-44M</French>
+				<Czech>12,7 BZT-44M</Czech>
+				<Russian>12,7 БЗТ-44М</Russian>
+				<Polish>12,7 BZT-44M</Polish>
+				<Hungarian>12.7 BZT-44M</Hungarian>
+			</Key>
+			<Key ID="STR_DN_VTN_12.7x108_API2">
+				<German>12,7 BS</German>
+				<English>12.7 BS</English>
+				<Italian>12.7 BS</Italian>
+				<Spanish>12,7 BS</Spanish>
+				<French>12.7 BS</French>
+				<Czech>12,7 BS</Czech>
+				<Russian>12,7 БС</Russian>
+				<Polish>12,7 BS</Polish>
+				<Hungarian>12.7 BS</Hungarian>
+			</Key>
+			<Key ID="STR_DN_VTN_12.7x108_INC">
+				<German>12,7 MDS</German>
+				<English>12.7 MDZ</English>
+				<Italian>12.7 MDZ</Italian>
+				<Spanish>12,7 MDZ</Spanish>
+				<French>12.7 MDZ</French>
+				<Czech>12,7 MDZ</Czech>
+				<Russian>12,7 МДЗ</Russian>
+				<Polish>12,7 MDZ</Polish>
+				<Hungarian>12.7 MDZ</Hungarian>
+			</Key>
+			<Key ID="STR_DN_VTN_12.7x108_SLT">
+				<German>1SLT-12,7JakB</German>
+				<English>1SLT-12.7YakB</English>
+				<Italian>1SLT-12.7YakB</Italian>
+				<Spanish>1SLT-12,7YakB</Spanish>
+				<French>1SLT-12.7YakB</French>
+				<Czech>1SLT-12,7YakB</Czech>
+				<Russian>1СЛТ-12,7ЯкБ</Russian>
+				<Polish>1SLT-12,7JakB</Polish>
+				<Hungarian>1SLT-12.7YakB</Hungarian>
+			</Key>
+			
+			<Key ID="STR_DN_VTN_14.5x114_APT">
+				<German>14,5 BST</German>
+				<English>14.5 BST</English>
+				<Italian>14.5 BST</Italian>
+				<Spanish>14,5 BST</Spanish>
+				<French>14.5 BST</French>
+				<Czech>14,5 BST</Czech>
+				<Russian>14,5 БСТ</Russian>
+				<Polish>14,5 BST</Polish>
+				<Hungarian>14.5 BST</Hungarian>
+			</Key>
+			
+			<Key ID="STR_DN_VTN_30mm_VOG25">
+				<German>WOG-25</German>
+				<English>VOG-25</English>
+				<Italian>VOG-25</Italian>
+				<Spanish>VOG-25</Spanish>
+				<French>VOG-25</French>
+				<Czech>VOG-25</Czech>
+				<Russian>ВОГ-25</Russian>
+				<Polish>WOG-25</Polish>
+				<Hungarian>VOG-25</Hungarian>
+			</Key>
+			<Key ID="STR_DN_VTN_30mm_VOG25P">
+				<German>WOG-25P</German>
+				<English>VOG-25P</English>
+				<Italian>VOG-25P</Italian>
+				<Spanish>VOG-25P</Spanish>
+				<French>VOG-25P</French>
+				<Czech>VOG-25P</Czech>
+				<Russian>ВОГ-25П</Russian>
+				<Polish>WOG-25P</Polish>
+				<Hungarian>VOG-25P</Hungarian>
+			</Key>
+			<Key ID="STR_DN_VTN_30mm_VG40MD">
+				<German>WG-40MD</German>
+				<English>VG-40MD</English>
+				<Italian>VG-40MD</Italian>
+				<Spanish>VG-40MD</Spanish>
+				<French>VG-40MD</French>
+				<Czech>VG-40MD</Czech>
+				<Russian>ВГ-40МД</Russian>
+				<Polish>WG-40MD</Polish>
+				<Hungarian>VG-40MD</Hungarian>
+			</Key>
+			<Key ID="STR_DN_VTN_30mm_VG40OP">
+				<German>WG-40OP</German>
+				<English>VG-40OP</English>
+				<Italian>VG-40OP</Italian>
+				<Spanish>VG-40OP</Spanish>
+				<French>VG-40OP</French>
+				<Czech>VG-40OP</Czech>
+				<Russian>ВГ-40ОП</Russian>
+				<Polish>WG-40OP</Polish>
+				<Hungarian>VG-40OP</Hungarian>
+			</Key>
+			<Key ID="STR_DN_VTN_30mm_VGS401">
+				<German>WGS-40-1</German>
+				<English>VGS-40-1</English>
+				<Italian>VGS-40-1</Italian>
+				<Spanish>VGS-40-1</Spanish>
+				<French>VGS-40-1</French>
+				<Czech>VGS-40-1</Czech>
+				<Russian>ВГС-40-1</Russian>
+				<Polish>WGS-40-1</Polish>
+				<Hungarian>VGS-40-1</Hungarian>
+			</Key>
+			<Key ID="STR_DN_VTN_30mm_VGS402">
+				<German>WGS-40-2</German>
+				<English>VGS-40-2</English>
+				<Italian>VGS-40-2</Italian>
+				<Spanish>VGS-40-2</Spanish>
+				<French>VGS-40-2</French>
+				<Czech>VGS-40-2</Czech>
+				<Russian>ВГС-40-2</Russian>
+				<Polish>WGS-40-2</Polish>
+				<Hungarian>VGS-40-2</Hungarian>
+			</Key>
+			<Key ID="STR_DN_VTN_30mm_VG40TB">
+				<German>WG-40TB</German>
+				<English>VG-40TB</English>
+				<Italian>VG-40TB</Italian>
+				<Spanish>VG-40TB</Spanish>
+				<French>VG-40TB</French>
+				<Czech>VG-40TB</Czech>
+				<Russian>ВГ-40ТБ</Russian>
+				<Polish>WG-40TB</Polish>
+				<Hungarian>VG-40TB</Hungarian>
+			</Key>
+			
+			<Key ID="STR_DN_VTN_30mm_VOG17A">
+				<German>WOG-17A</German>
+				<English>VOG-17A</English>
+				<Italian>VOG-17A</Italian>
+				<Spanish>VOG-17A</Spanish>
+				<French>VOG-17A</French>
+				<Czech>VOG-17A</Czech>
+				<Russian>ВОГ-17А</Russian>
+				<Polish>WOG-17A</Polish>
+				<Hungarian>VOG-17A</Hungarian>
+			</Key>
+			<Key ID="STR_DN_VTN_30mm_VOG17M">
+				<German>WOG-17M</German>
+				<English>VOG-17M</English>
+				<Italian>VOG-17M</Italian>
+				<Spanish>VOG-17M</Spanish>
+				<French>VOG-17M</French>
+				<Czech>VOG-17M</Czech>
+				<Russian>ВОГ-17М</Russian>
+				<Polish>WOG-17M</Polish>
+				<Hungarian>VOG-17M</Hungarian>
+			</Key>
+			<Key ID="STR_DN_VTN_30mm_VOG30">
+				<German>WOG-30</German>
+				<English>VOG-30</English>
+				<Italian>VOG-30</Italian>
+				<Spanish>VOG-30</Spanish>
+				<French>VOG-30</French>
+				<Czech>VOG-30</Czech>
+				<Russian>ВОГ-30</Russian>
+				<Polish>WOG-30</Polish>
+				<Hungarian>VOG-30</Hungarian>
+			</Key>
+			
+			<Key ID="STR_DN_VTN_85mm_PG7V">
+				<German>PG-7W</German>
+				<English>PG-7V</English>
+				<Italian>PG-7V</Italian>
+				<Spanish>PG-7V</Spanish>
+				<French>PG-7V</French>
+				<Czech>PG-7V</Czech>
+				<Russian>ПГ-7В</Russian>
+				<Polish>PG-7W</Polish>
+				<Hungarian>PG-7V</Hungarian>
+			</Key>
+			<Key ID="STR_DN_VTN_70mm_PG7VM">
+				<German>PG-7WM</German>
+				<English>PG-7VM</English>
+				<Italian>PG-7VM</Italian>
+				<Spanish>PG-7VM</Spanish>
+				<French>PG-7VM</French>
+				<Czech>PG-7VM</Czech>
+				<Russian>ПГ-7ВМ</Russian>
+				<Polish>PG-7WM</Polish>
+				<Hungarian>PG-7VM</Hungarian>
+			</Key>
+			<Key ID="STR_DN_VTN_93mm_PG7VL">
+				<German>PG-7WL</German>
+				<English>PG-7VL</English>
+				<Italian>PG-7VL</Italian>
+				<Spanish>PG-7VL</Spanish>
+				<French>PG-7VL</French>
+				<Czech>PG-7VL</Czech>
+				<Russian>ПГ-7ВЛ</Russian>
+				<Polish>PG-7WL</Polish>
+				<Hungarian>PG-7VL</Hungarian>
+			</Key>
+			<Key ID="STR_DN_VTN_65mm_PG7VR">
+				<German>PG-7WR</German>
+				<English>PG-7VR</English>
+				<Italian>PG-7VR</Italian>
+				<Spanish>PG-7VR</Spanish>
+				<French>PG-7VR</French>
+				<Czech>PG-7VR</Czech>
+				<Russian>ПГ-7ВР</Russian>
+				<Polish>PG-7WR</Polish>
+				<Hungarian>PG-7VR</Hungarian>
+			</Key>
+			<Key ID="STR_DN_VTN_105mm_TBG7V">
+				<German>TBG-7W</German>
+				<English>TBG-7V</English>
+				<Italian>TBG-7V</Italian>
+				<Spanish>TBG-7V</Spanish>
+				<French>TBG-7V</French>
+				<Czech>TBG-7V</Czech>
+				<Russian>ТБГ-7В</Russian>
+				<Polish>TBG-7W</Polish>
+				<Hungarian>TBG-7V</Hungarian>
+			</Key>
+			<Key ID="STR_DN_VTN_40mm_OG7V">
+				<German>OG-7W</German>
+				<English>OG-7V</English>
+				<Italian>OG-7V</Italian>
+				<Spanish>OG-7V</Spanish>
+				<French>OG-7V</French>
+				<Czech>OG-7V</Czech>
+				<Russian>ОГ-7В</Russian>
+				<Polish>OG-7W</Polish>
+				<Hungarian>OG-7V</Hungarian>
+			</Key>
+			<Key ID="STR_DN_VTN_40mm_F7">
+				<German>F-7</German>
+				<English>F-7</English>
+				<Italian>F-7</Italian>
+				<Spanish>F-7</Spanish>
+				<French>F-7</French>
+				<Czech>F-7</Czech>
+				<Russian>F-7</Russian>
+				<Polish>F-7</Polish>
+				<Hungarian>F-7</Hungarian>
+			</Key>
+			<Key ID="STR_DN_VTN_40mm_TYPE691F">
+				<German>Type 69-1F</German>
+				<English>Type 69-1F</English>
+				<Italian>Type 69-1F</Italian>
+				<Spanish>Type 69-1F</Spanish>
+				<French>Type 69-1F</French>
+				<Czech>Type 69-1F</Czech>
+				<Russian>Type 69-1F</Russian>
+				<Polish>Type 69-1F</Polish>
+				<Hungarian>Type 69-1F</Hungarian>
+			</Key>
+			<Key ID="STR_DN_VTN_40mm_82mmRPG">
+				<German>82 mm selbstgebastelt</German>
+				<English>Self-made 82mm</English>
+				<Italian>Self-made 82mm</Italian>
+				<Spanish>Self-made 82mm</Spanish>
+				<French>Self-made 82mm</French>
+				<Czech>Self-made 82mm</Czech>
+				<Russian>Самодельный 82-мм</Russian>
+				<Polish>Self-made 82mm</Polish>
+				<Hungarian>Self-made 82mm</Hungarian>
+			</Key>
+		</Container>
+		
+		<Container name="VTN_MAGS_TYPE_WEST">
+			<Key ID="STR_DN_VTN_9x19_M882">
+				<German>M882</German>
+				<English>M882</English>
+				<Italian>M882</Italian>
+				<Spanish>M882</Spanish>
+				<French>M882</French>
+				<Czech>M882</Czech>
+				<Russian>M882</Russian>
+				<Polish>M882</Polish>
+				<Hungarian>M882</Hungarian>
+			</Key>
+			<Key ID="STR_DN_VTN_9x19_TRACER">
+				<German>9 mm Leuchtspur</German>
+				<English>9mm tracer</English>
+				<Italian>9mm tracer</Italian>
+				<Spanish>9 mm tracer</Spanish>
+				<French>9mm tracer</French>
+				<Czech>9 mm stopovka</Czech>
+				<Russian>9 мм трассер</Russian>
+				<Polish>9 mm smugowy</Polish>
+				<Hungarian>9mm tracer</Hungarian>
+			</Key>			
+			<Key ID="STR_DN_VTN_9x19_LUGER">
+				<German>9 mm Luger</German>
+				<English>9mm Luger</English>
+				<Italian>9mm Luger</Italian>
+				<Spanish>9 mm Luger</Spanish>
+				<French>9mm Luger</French>
+				<Czech>9 mm Luger</Czech>
+				<Russian>9 мм Люгер</Russian>
+				<Polish>9 mm Luger</Polish>
+				<Hungarian>9mm Luger</Hungarian>
+			</Key>
+			
+			<Key ID="STR_DN_VTN_45ACP_M1911">
+				<German>M1911 Ball</German>
+				<English>M1911 Ball</English>
+				<Italian>M1911 Ball</Italian>
+				<Spanish>M1911 Ball</Spanish>
+				<French>M1911 Ball</French>
+				<Czech>M1911 Ball</Czech>
+				<Russian>M1911 Ball</Russian>
+				<Polish>M1911 Ball</Polish>
+				<Hungarian>M1911 Ball</Hungarian>
+			</Key>
+			<Key ID="STR_DN_VTN_45ACP_M1">
+				<German>M26 Tracer</German>
+				<English>M26 Tracer</English>
+				<Italian>M26 Tracer</Italian>
+				<Spanish>M26 Tracer</Spanish>
+				<French>M26 Tracer</French>
+				<Czech>M26 Tracer</Czech>
+				<Russian>M26 Tracer</Russian>
+				<Polish>M26 Tracer</Polish>
+				<Hungarian>M26 Tracer</Hungarian>
+			</Key>			
+			<Key ID="STR_DN_VTN_45ACP_FMJ">
+				<German>.45 ACP VM</German>
+				<English>.45 ACP FMJ</English>
+				<Italian>.45 ACP FMJ</Italian>
+				<Spanish>.45 ACP FMJ</Spanish>
+				<French>.45 ACP FMJ</French>
+				<Czech>.45 ACP FMJ</Czech>
+				<Russian>.45 ACP FMJ</Russian>
+				<Polish>.45 ACP FMJ</Polish>
+				<Hungarian>.45 ACP FMJ</Hungarian>
+			</Key>
+			<Key ID="STR_DN_VTN_45ACP_HP">
+				<German>.45 ACP HS</German>
+				<English>.45 ACP HP</English>
+				<Italian>.45 ACP HP</Italian>
+				<Spanish>.45 ACP HP</Spanish>
+				<French>.45 ACP HP</French>
+				<Czech>.45 ACP HP</Czech>
+				<Russian>.45 ACP HP</Russian>
+				<Polish>.45 ACP HP</Polish>
+				<Hungarian>.45 ACP HP</Hungarian>
+			</Key>
+			<Key ID="STR_DN_VTN_45ACP_JHP">
+				<German>.45 ACP HSM</German>
+				<English>.45 ACP JHP</English>
+				<Italian>.45 ACP JHP</Italian>
+				<Spanish>.45 ACP JHP</Spanish>
+				<French>.45 ACP JHP</French>
+				<Czech>.45 ACP JHP</Czech>
+				<Russian>.45 ACP JHP</Russian>
+				<Polish>.45 ACP JHP</Polish>
+				<Hungarian>.45 ACP JHP</Hungarian>
+			</Key>
+			
+			<Key ID="STR_DN_VTN_.45ACP_M1911">
+				<German>M1911 Ball</German>
+				<English>M1911 Ball</English>
+				<Italian>M1911 Ball</Italian>
+				<Spanish>M1911 Ball</Spanish>
+				<French>M1911 Ball</French>
+				<Czech>M1911 Ball</Czech>
+				<Russian>M1911 Ball</Russian>
+				<Polish>M1911 Ball</Polish>
+				<Hungarian>M1911 Ball</Hungarian>
+			</Key>
+			<Key ID="STR_DN_VTN_.45ACP_M1">
+				<German>M26 Tracer</German>
+				<English>M26 Tracer</English>
+				<Italian>M26 tracciante</Italian>
+				<Spanish>M26 Tracer</Spanish>
+				<French>M26 traçante</French>
+				<Czech>M26 stopovka</Czech>
+				<Russian>M26 Tracer</Russian>
+				<Polish>M26 Tracer</Polish>
+				<Hungarian>M26 fényjelző lőszer</Hungarian>
+			</Key>
+			<Key ID="STR_DN_VTN_.45ACP_FMJ">
+				<German>.45 ACP VM</German>
+				<English>.45 ACP FMJ</English>
+				<Italian>.45 ACP FMJ</Italian>
+				<Spanish>.45 ACP FMJ</Spanish>
+				<French>.45 ACP FMJ</French>
+				<Czech>.45 ACP FMJ</Czech>
+				<Russian>.45 ACP FMJ</Russian>
+				<Polish>.45 ACP FMJ</Polish>
+				<Hungarian>.45 ACP FMJ</Hungarian>
+			</Key>
+			<Key ID="STR_DN_VTN_.45ACP_HP">
+				<German>.45 ACP HS</German>
+				<English>.45 ACP HP</English>
+				<Italian>.45 ACP HP</Italian>
+				<Spanish>.45 ACP HP</Spanish>
+				<French>.45 ACP HP</French>
+				<Czech>.45 ACP HP</Czech>
+				<Russian>.45 ACP HP</Russian>
+				<Polish>.45 ACP HP</Polish>
+				<Hungarian>.45 ACP HP</Hungarian>
+			</Key>
+			<Key ID="STR_DN_VTN_.45ACP_JHP">
+				<German>.45 ACP HSM</German>
+				<English>.45 ACP JHP</English>
+				<Italian>.45 ACP JHP</Italian>
+				<Spanish>.45 ACP JHP</Spanish>
+				<French>.45 ACP JHP</French>
+				<Czech>.45 ACP JHP</Czech>
+				<Russian>.45 ACP JHP</Russian>
+				<Polish>.45 ACP JHP</Polish>
+				<Hungarian>.45 ACP JHP</Hungarian>
+			</Key>
+
+			<Key ID="STR_DN_VTN_5.56x45_FMJ">
+				<German>M193 Ball</German>
+				<English>M193 Ball</English>
+				<Italian>M193 Ball</Italian>
+				<Spanish>M193 Ball</Spanish>
+				<French>M193 Ball</French>
+				<Czech>M193 Ball</Czech>
+				<Russian>M193 Ball</Russian>
+				<Polish>M193 Ball</Polish>
+				<Hungarian>M193 Ball</Hungarian>
+			</Key>
+			<Key ID="STR_DN_VTN_5.56x45_SC">
+				<German>M855A1 Ball</German>
+				<English>M855A1 Ball</English>
+				<Italian>M855A1 Ball</Italian>
+				<Spanish>M855A1 Ball</Spanish>
+				<French>M855A1 Ball</French>
+				<Czech>M855A1 Ball</Czech>
+				<Russian>M855A1 Ball</Russian>
+				<Polish>M855A1 Ball</Polish>
+				<Hungarian>M855A1 Ball</Hungarian>
+			</Key>
+			<Key ID="STR_DN_VTN_5.56x45_SC2">
+				<German>M855 Ball</German>
+				<English>M855 Ball</English>
+				<Italian>M855 Ball</Italian>
+				<Spanish>M855 Ball</Spanish>
+				<French>M855 Ball</French>
+				<Czech>M855 Ball</Czech>
+				<Russian>М855</Russian>
+				<Polish>M855 Ball</Polish>
+				<Hungarian>M855 Ball</Hungarian>
+			</Key>
+			<Key ID="STR_DN_VTN_5.56x45_TRC">
+				<German>M856A1 Tracer</German>
+				<English>M856A1 Tracer</English>
+				<Italian>M856A1 Tracer</Italian>
+				<Spanish>M856A1 Tracer</Spanish>
+				<French>M856A1 Tracer</French>
+				<Czech>M856A1 Tracer</Czech>
+				<Russian>M856A1 Tracer</Russian>
+				<Polish>M856A1 Tracer</Polish>
+				<Hungarian>M856A1 Tracer</Hungarian>
+			</Key>
+			<Key ID="STR_DN_VTN_5.56x45_TRC2">
+				<German>M856 Tracer</German>
+				<English>M856 Tracer</English>
+				<Italian>M856 Tracer</Italian>
+				<Spanish>M856 Tracer</Spanish>
+				<French>M856 Tracer</French>
+				<Czech>M856 Tracer</Czech>
+				<Russian>M856 Tracer</Russian>
+				<Polish>M856 Tracer</Polish>
+				<Hungarian>M856 Tracer</Hungarian>
+			</Key>
+			<Key ID="STR_DN_VTN_5.56x45_TRCN">
+				<German>M996 DIM Tracer</German>
+				<English>M996 DIM Tracer</English>
+				<Italian>M996 DIM Tracer</Italian>
+				<Spanish>M996 DIM Tracer</Spanish>
+				<French>M996 DIM Tracer</French>
+				<Czech>M996 DIM Tracer</Czech>
+				<Russian>M996 DIM Tracer</Russian>
+				<Polish>M996 DIM Tracer</Polish>
+				<Hungarian>M996 DIM Tracer</Hungarian>
+			</Key>
+			<Key ID="STR_DN_VTN_5.56x45_TRCD">
+				<German>Mk301 Mod 0 DIM Tracer</German>
+				<English>Mk301 Mod 0 DIM Tracer</English>
+				<Italian>Mk301 Mod 0 DIM Tracer</Italian>
+				<Spanish>Mk301 Mod 0 DIM Tracer</Spanish>
+				<French>Mk301 Mod 0 DIM Tracer</French>
+				<Czech>Mk301 Mod 0 DIM Tracer</Czech>
+				<Russian>Mk301 Mod 0 DIM Tracer</Russian>
+				<Polish>Mk301 Mod 0 DIM Tracer</Polish>
+				<Hungarian>Mk301 Mod 0 DIM Tracer</Hungarian>
+			</Key>
+			<Key ID="STR_DN_VTN_5.56x45_AP">
+				<German>M995 AP</German>
+				<English>M995 AP</English>
+				<Italian>M995 AP</Italian>
+				<Spanish>M995 AP</Spanish>
+				<French>M995 AP</French>
+				<Czech>M995 AP</Czech>
+				<Russian>M995 AP</Russian>
+				<Polish>M995 AP</Polish>
+				<Hungarian>M995 AP</Hungarian>
+			</Key>
+			<Key ID="STR_DN_VTN_5.56x45_LR">
+				<German>Mk262 Mod 1 LR</German>
+				<English>Mk262 Mod 1 LR</English>
+				<Italian>Mk262 Mod 1 LR</Italian>
+				<Spanish>Mk262 Mod 1 LR</Spanish>
+				<French>Mk262 Mod 1 LR</French>
+				<Czech>Mk262 Mod 1 LR</Czech>
+				<Russian>Mk262 Mod 1 LR</Russian>
+				<Polish>Mk262 Mod 1 LR</Polish>
+				<Hungarian>Mk262 Mod 1 LR</Hungarian>
+			</Key>
+			<Key ID="STR_DN_VTN_5.56x45_LR2">
+				<German>Mk262 Mod 1 R2LP</German>
+				<English>Mk262 Mod 1 R2LP</English>
+				<Italian>Mk262 Mod 1 R2LP</Italian>
+				<Spanish>Mk262 Mod 1 R2LP</Spanish>
+				<French>Mk262 Mod 1 R2LP</French>
+				<Czech>Mk262 Mod 1 R2LP</Czech>
+				<Russian>Mk262 Mod 1 R2LP</Russian>
+				<Polish>Mk262 Mod 1 R2LP</Polish>
+				<Hungarian>Mk262 Mod 1 R2LP</Hungarian>
+			</Key>
+			<Key ID="STR_DN_VTN_5.56x45_SS">
+				<German>SW</German>
+				<English>SW</English>
+				<Italian>SW</Italian>
+				<Spanish>SW</Spanish>
+				<French>SW</French>
+				<Czech>SW</Czech>
+				<Russian>SW</Russian>
+				<Polish>SW</Polish>
+				<Hungarian>SW</Hungarian>
+			</Key>
+
+			<Key ID="STR_DN_VTN_7.62x51_SC">
+				<German>M80A1 Ball</German>
+				<English>M80A1 Ball</English>
+				<Italian>M80A1 Ball</Italian>
+				<Spanish>M80A1 Ball</Spanish>
+				<French>M80A1 Ball</French>
+				<Czech>M80A1 Ball</Czech>
+				<Russian>M80A1 Ball</Russian>
+				<Polish>M80A1 Ball</Polish>
+				<Hungarian>M80A1 Ball</Hungarian>
+			</Key>
+			<Key ID="STR_DN_VTN_7.62x51_SC2">
+				<German>M80 Ball</German>
+				<English>M80 Ball</English>
+				<Italian>M80 Ball</Italian>
+				<Spanish>M80 Ball</Spanish>
+				<French>M80 Ball</French>
+				<Czech>M80 Ball</Czech>
+				<Russian>M80 Ball</Russian>
+				<Polish>M80 Ball</Polish>
+				<Hungarian>M80 Ball</Hungarian>
+			</Key>
+			<Key ID="STR_DN_VTN_7.62x51_TRC">
+				<German>M62A1 Tracer</German>
+				<English>M62A1 Tracer</English>
+				<Italian>M62A1 Tracer</Italian>
+				<Spanish>M62A1 Tracer</Spanish>
+				<French>M62A1 Tracer</French>
+				<Czech>M62A1 Tracer</Czech>
+				<Russian>M62A1 Tracer</Russian>
+				<Polish>M62A1 Tracer</Polish>
+				<Hungarian>M62A1 Tracer</Hungarian>
+			</Key>
+			<Key ID="STR_DN_VTN_7.62x51_TRC2">
+				<German>M62 Tracer</German>
+				<English>M62 Tracer</English>
+				<Italian>M62 Tracer</Italian>
+				<Spanish>M62 Tracer</Spanish>
+				<French>M62 Tracer</French>
+				<Czech>M62 Tracer</Czech>
+				<Russian>M62 Tracer</Russian>
+				<Polish>M62 Tracer</Polish>
+				<Hungarian>M62 Tracer</Hungarian>
+			</Key>
+			<Key ID="STR_DN_VTN_7.62x51_TRCD">
+				<German>M276 DIM Tracer</German>
+				<English>M276 DIM Tracer</English>
+				<Italian>M276 DIM Tracer</Italian>
+				<Spanish>M276 DIM Tracer</Spanish>
+				<French>M276 DIM Tracer</French>
+				<Czech>M276 DIM Tracer</Czech>
+				<Russian>M276 DIM Tracer</Russian>
+				<Polish>M276 DIM Tracer</Polish>
+				<Hungarian>M276 DIM Tracer</Hungarian>
+			</Key>
+			<Key ID="STR_DN_VTN_7.62x51_AP">
+				<German>M993 AP</German>
+				<English>M993 AP</English>
+				<Italian>M993 AP</Italian>
+				<Spanish>M993 AP</Spanish>
+				<French>M993 AP</French>
+				<Czech>M993 AP</Czech>
+				<Russian>M993 AP</Russian>
+				<Polish>M993 AP</Polish>
+				<Hungarian>M993 AP</Hungarian>
+			</Key>
+			<Key ID="STR_DN_VTN_7.62x51_LR">
+				<German>M118LR</German>
+				<English>M118LR</English>
+				<Italian>M118LR</Italian>
+				<Spanish>M118LR</Spanish>
+				<French>M118LR</French>
+				<Czech>M118LR</Czech>
+				<Russian>M118LR</Russian>
+				<Polish>M118LR</Polish>
+				<Hungarian>M118LR</Hungarian>
+			</Key>
+
+			<Key ID="STR_DN_VTN_308_FMJ">
+				<German>.308 Win. VM</German>
+				<English>.308 Win. FMJ</English>
+				<Italian>.308 Win. FMJ</Italian>
+				<Spanish>.308 Win. FMJ</Spanish>
+				<French>.308 Win. FMJ</French>
+				<Czech>.308 Win. FMJ</Czech>
+				<Russian>.308 Вин. FMJ</Russian>
+				<Polish>.308 Win. FMJ</Polish>
+				<Hungarian>.308 Win. FMJ</Hungarian>
+			</Key>
+			<Key ID="STR_DN_VTN_308_SP">
+				<German>.308 Win. TM</German>
+				<English>.308 Win. SP</English>
+				<Italian>.308 Win. SP</Italian>
+				<Spanish>.308 Win. SP</Spanish>
+				<French>.308 Win. SP</French>
+				<Czech>.308 Win. SP</Czech>
+				<Russian>.308 Вин. SP</Russian>
+				<Polish>.308 Win. SP</Polish>
+				<Hungarian>.308 Win. SP</Hungarian>
+			</Key>
+			<Key ID="STR_DN_VTN_308_HP">
+				<German>.308 Win. HS</German>
+				<English>.308 Win. HP</English>
+				<Italian>.308 Win. HP</Italian>
+				<Spanish>.308 Win. HP</Spanish>
+				<French>.308 Win. HP</French>
+				<Czech>.308 Win. HP</Czech>
+				<Russian>.308 Вин. HP</Russian>
+				<Polish>.308 Win. HP</Polish>
+				<Hungarian>.308 Win. HP</Hungarian>
+			</Key>
+			
+			<Key ID="STR_DN_VTN_.308_FMJ">
+				<German>.308 Win. VM</German>
+				<English>.308 Win. FMJ</English>
+				<Italian>.308 Win. FMJ</Italian>
+				<Spanish>.308 Win. FMJ</Spanish>
+				<French>.308 Win. FMJ</French>
+				<Czech>.308 Win. FMJ</Czech>
+				<Russian>.308 Win. FMJ</Russian>
+				<Polish>.308 Win. FMJ</Polish>
+				<Hungarian>.308 Win. FMJ</Hungarian>
+			</Key>
+			<Key ID="STR_DN_VTN_.308_SP">
+				<German>.308 Win. TM</German>
+				<English>.308 Win. SP</English>
+				<Italian>.308 Win. SP</Italian>
+				<Spanish>.308 Win. SP</Spanish>
+				<French>.308 Win. SP</French>
+				<Czech>.308 Win. SP</Czech>
+				<Russian>.308 Win. SP</Russian>
+				<Polish>.308 Win. SP</Polish>
+				<Hungarian>.308 Win. SP</Hungarian>
+			</Key>
+			<Key ID="STR_DN_VTN_.308_HP">
+				<German>.308 Win. HS</German>
+				<English>.308 Win. HP</English>
+				<Italian>.308 Win. HP</Italian>
+				<Spanish>.308 Win. HP</Spanish>
+				<French>.308 Win. HP</French>
+				<Czech>.308 Win. HP</Czech>
+				<Russian>.308 Win. HP</Russian>
+				<Polish>.308 Win. HP</Polish>
+				<Hungarian>.308 Win. HP</Hungarian>
+			</Key>
+
+			<Key ID="STR_DN_VTN_338LM_SP">
+				<German>.338LM TM</German>
+				<English>.338LM SP</English>
+				<Italian>.338LM SP</Italian>
+				<Spanish>.338LM SP</Spanish>
+				<French>.338LM SP</French>
+				<Czech>.338LM SP</Czech>
+				<Russian>.338LM SP</Russian>
+				<Polish>.338LM SP</Polish>
+				<Hungarian>.338LM SP</Hungarian>
+			</Key>
+			<Key ID="STR_DN_VTN_338LM_FMJ">
+				<German>.338LM VM</German>
+				<English>.338LM FMJ</English>
+				<Italian>.338LM FMJ</Italian>
+				<Spanish>.338LM FMJ</Spanish>
+				<French>.338LM FMJ</French>
+				<Czech>.338LM FMJ</Czech>
+				<Russian>.338LM FMJ</Russian>
+				<Polish>.338LM FMJ</Polish>
+				<Hungarian>.338LM FMJ</Hungarian>
+			</Key>
+			<Key ID="STR_DN_VTN_338LM_HP">
+				<German>.338LM HS</German>
+				<English>.338LM HP</English>
+				<Italian>.338LM HP</Italian>
+				<Spanish>.338LM HP</Spanish>
+				<French>.338LM HP</French>
+				<Czech>.338LM HP</Czech>
+				<Russian>.338LM HP</Russian>
+				<Polish>.338LM HP</Polish>
+				<Hungarian>.338LM HP</Hungarian>
+			</Key>
+			<Key ID="STR_DN_VTN_338LM_NP">
+				<German>.338LM Nosler</German>
+				<English>.338LM Nosler</English>
+				<Italian>.338LM Nosler</Italian>
+				<Spanish>.338LM Nosler</Spanish>
+				<French>.338LM Nosler</French>
+				<Czech>.338LM Nosler</Czech>
+				<Russian>.338LM Nosler</Russian>
+				<Polish>.338LM Nosler</Polish>
+				<Hungarian>.338LM Nosler</Hungarian>
+			</Key>
+			<Key ID="STR_DN_VTN_338LM_AP">
+				<German>.338LM AP</German>
+				<English>.338LM AP</English>
+				<Italian>.338LM AP</Italian>
+				<Spanish>.338LM AP</Spanish>
+				<French>.338LM AP</French>
+				<Czech>.338LM AP</Czech>
+				<Russian>.338LM AP</Russian>
+				<Polish>.338LM AP</Polish>
+				<Hungarian>.338LM AP</Hungarian>
+			</Key>
+			<Key ID="STR_DN_VTN_338LM_API">
+				<German>.338LM API</German>
+				<English>.338LM API</English>
+				<Italian>.338LM API</Italian>
+				<Spanish>.338LM API</Spanish>
+				<French>.338LM API</French>
+				<Czech>.338LM API</Czech>
+				<Russian>.338LM API</Russian>
+				<Polish>.338LM API</Polish>
+				<Hungarian>.338LM API</Hungarian>
+			</Key>
+			
+			<Key ID="STR_DN_VTN_50BMG_AP">
+				<German>M903 SLAP</German>
+				<English>M903 SLAP</English>
+				<Italian>M903 SLAP</Italian>
+				<Spanish>M903 SLAP</Spanish>
+				<French>M903 SLAP</French>
+				<Czech>M903 SLAP</Czech>
+				<Russian>M903 SLAP</Russian>
+				<Polish>M903 SLAP</Polish>
+				<Hungarian>M903 SLAP</Hungarian>
+			</Key>
+			<Key ID="STR_DN_VTN_50BMG_APT">
+				<German>M962 SLAP-T</German>
+				<English>M962 SLAP-T</English>
+				<Italian>M962 SLAP-T</Italian>
+				<Spanish>M962 SLAP-T</Spanish>
+				<French>M962 SLAP-T</French>
+				<Czech>M962 SLAP-T</Czech>
+				<Russian>M962 SLAP-T</Russian>
+				<Polish>M962 SLAP-T</Polish>
+				<Hungarian>M962 SLAP-T</Hungarian>
+			</Key>
+			<Key ID="STR_DN_VTN_50BMG_API">
+				<German>M8 API</German>
+				<English>M8 API</English>
+				<Italian>M8 API</Italian>
+				<Spanish>M8 API</Spanish>
+				<French>M8 API</French>
+				<Czech>M8 API</Czech>
+				<Russian>M8 API</Russian>
+				<Polish>M8 API</Polish>
+				<Hungarian>M8 API</Hungarian>
+			</Key>
+			<Key ID="STR_DN_VTN_50BMG_APIT">
+				<German>M20 API-T</German>
+				<English>M20 API-T</English>
+				<Italian>M20 API-T</Italian>
+				<Spanish>M20 API-T</Spanish>
+				<French>M20 API-T</French>
+				<Czech>M20 API-T</Czech>
+				<Russian>M20 API-T</Russian>
+				<Polish>M20 API-T</Polish>
+				<Hungarian>M20 API-T</Hungarian>
+			</Key>
+			<Key ID="STR_DN_VTN_50BMG_API2">
+				<German>Mk 211 Mod 0 API</German>
+				<English>Mk 211 Mod 0 API</English>
+				<Italian>Mk 211 Mod 0 API</Italian>
+				<Spanish>Mk 211 Mod 0 API</Spanish>
+				<French>Mk 211 Mod 0 API</French>
+				<Czech>Mk 211 Mod 0 API</Czech>
+				<Russian>Mk 211 Mod 0 API</Russian>
+				<Polish>Mk 211 Mod 0 API</Polish>
+				<Hungarian>Mk 211 Mod 0 API</Hungarian>
+			</Key>
+			<Key ID="STR_DN_VTN_50BMG_BALL">
+				<German>M33 Ball</German>
+				<English>M33 Ball</English>
+				<Italian>M33 Ball</Italian>
+				<Spanish>M33 Ball</Spanish>
+				<French>M33 Ball</French>
+				<Czech>M33 Ball</Czech>
+				<Russian>M33 Ball</Russian>
+				<Polish>M33 Ball</Polish>
+				<Hungarian>M33 Ball</Hungarian>
+			</Key>
+
+			<Key ID="STR_DN_VTN_40mm_M406">
+				<German>M406 HE</German>
+				<English>M406 HE</English>
+				<Italian>M406 HE</Italian>
+				<Spanish>M406 HE</Spanish>
+				<French>M406 HE</French>
+				<Czech>M406 HE</Czech>
+				<Russian>M406 HE</Russian>
+				<Polish>M406 HE</Polish>
+				<Hungarian>M406 HE</Hungarian>
+			</Key>
+			<Key ID="STR_DN_VTN_40mm_M433">
+				<German>M433 HEDP</German>
+				<English>M433 HEDP</English>
+				<Italian>M433 HEDP</Italian>
+				<Spanish>M433 HEDP</Spanish>
+				<French>M433 HEDP</French>
+				<Czech>M433 HEDP</Czech>
+				<Russian>M433 HEDP</Russian>
+				<Polish>M433 HEDP</Polish>
+				<Hungarian>M433 HEDP</Hungarian>
+			</Key>
+			<Key ID="STR_DN_VTN_40mm_M583A1">
+				<German>M583A1 IC</German>
+				<English>M583A1 IC</English>
+				<Italian>M583A1 IC</Italian>
+				<Spanish>M583A1 IC</Spanish>
+				<French>M583A1 IC</French>
+				<Czech>M583A1 IC</Czech>
+				<Russian>M583A1 IC</Russian>
+				<Polish>M583A1 IC</Polish>
+				<Hungarian>M583A1 IC</Hungarian>
+			</Key>
+			<Key ID="STR_DN_VTN_40mm_M585">
+				<German>M585 White Star</German>
+				<English>M585 White Star</English>
+				<Italian>M585 White Star</Italian>
+				<Spanish>M585 White Star</Spanish>
+				<French>M585 White Star</French>
+				<Czech>M585 White Star</Czech>
+				<Russian>M585 White Star</Russian>
+				<Polish>M585 White Star</Polish>
+				<Hungarian>M585 White Star</Hungarian>
+			</Key>
+			<Key ID="STR_DN_VTN_40mm_M661">
+				<German>M661 Green Star</German>
+				<English>M661 Green Star</English>
+				<Italian>M661 Green Star</Italian>
+				<Spanish>M661 Green Star</Spanish>
+				<French>M661 Green Star</French>
+				<Czech>M661 Green Star</Czech>
+				<Russian>M661 Green Star</Russian>
+				<Polish>M661 Green Star</Polish>
+				<Hungarian>M661 Green Star</Hungarian>
+			</Key>
+			<Key ID="STR_DN_VTN_40mm_M662">
+				<German>M662 Red Star</German>
+				<English>M662 Red Star</English>
+				<Italian>M662 Red Star</Italian>
+				<Spanish>M662 Red Star</Spanish>
+				<French>M662 Red Star</French>
+				<Czech>M662 Red Star</Czech>
+				<Russian>M662 Red Star</Russian>
+				<Polish>M662 Red Star</Polish>
+				<Hungarian>M662 Red Star</Hungarian>
+			</Key>
+			<Key ID="STR_DN_VTN_40mm_M713">
+				<German>M713 Red Ground Marker</German>
+				<English>M713 Red Ground Marker</English>
+				<Italian>M713 Red Ground Marker</Italian>
+				<Spanish>M713 Red Ground Marker</Spanish>
+				<French>M713 Red Ground Marker</French>
+				<Czech>M713 Red Ground Marker</Czech>
+				<Russian>M713 Red Ground Marker</Russian>
+				<Polish>M713 Red Ground Marker</Polish>
+				<Hungarian>M713 Red Ground Marker</Hungarian>
+			</Key>
+			<Key ID="STR_DN_VTN_40mm_M714">
+				<German>M714 White Ground Marker</German>
+				<English>M714 White Ground Marker</English>
+				<Italian>M714 White Ground Marker</Italian>
+				<Spanish>M714 White Ground Marker</Spanish>
+				<French>M714 White Ground Marker</French>
+				<Czech>M714 White Ground Marker</Czech>
+				<Russian>M714 White Ground Marker</Russian>
+				<Polish>M714 White Ground Marker</Polish>
+				<Hungarian>M714 White Ground Marker</Hungarian>
+			</Key>
+			<Key ID="STR_DN_VTN_40mm_M715">
+				<German>M715 Green Ground Marker</German>
+				<English>M715 Green Ground Marker</English>
+				<Italian>M715 Green Ground Marker</Italian>
+				<Spanish>M715 Green Ground Marker</Spanish>
+				<French>M715 Green Ground Marker</French>
+				<Czech>M715 Green Ground Marker</Czech>
+				<Russian>M715 Green Ground Marker</Russian>
+				<Polish>M715 Green Ground Marker</Polish>
+				<Hungarian>M715 Green Ground Marker</Hungarian>
+			</Key>
+			<Key ID="STR_DN_VTN_40mm_M716">
+				<German>M716 Yellow Ground Marker</German>
+				<English>M716 Yellow Ground Marker</English>
+				<Italian>M716 Yellow Ground Marker</Italian>
+				<Spanish>M716 Yellow Ground Marker</Spanish>
+				<French>M716 Yellow Ground Marker</French>
+				<Czech>M716 Yellow Ground Marker</Czech>
+				<Russian>M716 Yellow Ground Marker</Russian>
+				<Polish>M716 Yellow Ground Marker</Polish>
+				<Hungarian>M716 Yellow Ground Marker</Hungarian>
+			</Key>
+			<Key ID="STR_DN_VTN_40mm_M992">
+				<German>M992 IRIC</German>
+				<English>M992 IRIC</English>
+				<Italian>M992 IRIC</Italian>
+				<Spanish>M992 IRIC</Spanish>
+				<French>M992 IRIC</French>
+				<Czech>M992 IRIC</Czech>
+				<Russian>M992 IRIC</Russian>
+				<Polish>M992 IRIC</Polish>
+				<Hungarian>M992 IRIC</Hungarian>
+			</Key>
+			<Key ID="STR_DN_VTN_40mm_M1060">
+				<German>M1060 Thermobaric</German>
+				<English>M1060 Thermobaric</English>
+				<Italian>M1060 Thermobaric</Italian>
+				<Spanish>M1060 Thermobaric</Spanish>
+				<French>M1060 Thermobaric</French>
+				<Czech>M1060 Thermobaric</Czech>
+				<Russian>M1060 Thermobaric</Russian>
+				<Polish>M1060 Thermobaric</Polish>
+				<Hungarian>M1060 Thermobaric</Hungarian>
+			</Key>
+			<Key ID="STR_DN_VTN_40mm_M576E1">
+				<German>M576E1 Buckshot</German>
+				<English>M576E1 Buckshot</English>
+				<Italian>M576E1 Buckshot</Italian>
+				<Spanish>M576E1 Buckshot</Spanish>
+				<French>M576E1 Buckshot</French>
+				<Czech>M576E1 Buckshot</Czech>
+				<Russian>M576E1 Buckshot</Russian>
+				<Polish>M576E1 Buckshot</Polish>
+				<Hungarian>M576E1 Buckshot</Hungarian>
+			</Key>
+			<Key ID="STR_DN_VTN_40mm_M576E2">
+				<German>M576E2 Buckshot</German>
+				<English>M576E2 Buckshot</English>
+				<Italian>M576E2 Buckshot</Italian>
+				<Spanish>M576E2 Buckshot</Spanish>
+				<French>M576E2 Buckshot</French>
+				<Czech>M576E2 Buckshot</Czech>
+				<Russian>M576E2 Buckshot</Russian>
+				<Polish>M576E2 Buckshot</Polish>
+				<Hungarian>M576E2 Buckshot</Hungarian>
+			</Key>
+
+			<Key ID="STR_DN_VTN_40mm_M384">
+				<German>M384 HE</German>
+				<English>M384 HE</English>
+				<Italian>M384 HE</Italian>
+				<Spanish>M384 HE</Spanish>
+				<French>M384 HE</French>
+				<Czech>M384 HE</Czech>
+				<Russian>M384 HE</Russian>
+				<Polish>M384 HE</Polish>
+				<Hungarian>M384 HE</Hungarian>
+			</Key>
+			<Key ID="STR_DN_VTN_40mm_M430A1">
+				<German>M430A1 HEDP</German>
+				<English>M430A1 HEDP</English>
+				<Italian>M430A1 HEDP</Italian>
+				<Spanish>M430A1 HEDP</Spanish>
+				<French>M430A1 HEDP</French>
+				<Czech>M430A1 HEDP</Czech>
+				<Russian>M430A1 HEDP</Russian>
+				<Polish>M430A1 HEDP</Polish>
+				<Hungarian>M430A1 HEDP</Hungarian>
+			</Key>
+			<Key ID="STR_DN_VTN_40mm_M1001">
+				<German>M1001 HVCC</German>
+				<English>M1001 HVCC</English>
+				<Italian>M1001 HVCC</Italian>
+				<Spanish>M1001 HVCC</Spanish>
+				<French>M1001 HVCC</French>
+				<Czech>M1001 HVCC</Czech>
+				<Russian>M1001 HVCC</Russian>
+				<Polish>M1001 HVCC</Polish>
+				<Hungarian>M1001 HVCC</Hungarian>
+			</Key>
+			
+			<Key ID="STR_DN_VTN_40mmMecar_M260">
+				<German>M260 HEDP</German>
+				<English>M260 HEDP</English>
+				<Italian>M260 HEDP</Italian>
+				<Spanish>M260 HEDP</Spanish>
+				<French>M260 HEDP</French>
+				<Czech>M260 HEDP</Czech>
+				<Russian>M260 HEDP</Russian>
+				<Polish>M260 HEDP</Polish>
+				<Hungarian>M260 HEDP</Hungarian>
+			</Key>
+			<Key ID="STR_DN_VTN_40mmMecar_M263">
+				<German>M263 HE</German>
+				<English>M263 HE</English>
+				<Italian>M263 HE</Italian>
+				<Spanish>M263 HE</Spanish>
+				<French>M263 HE</French>
+				<Czech>M263 HE</Czech>
+				<Russian>M263 HE</Russian>
+				<Polish>M263 HE</Polish>
+				<Hungarian>M263 HE</Hungarian>
+			</Key>
+			<Key ID="STR_DN_VTN_40mmMecar_M258">
+				<German>M258 Smoke</German>
+				<English>M258 Smoke</English>
+				<Italian>M258 Smoke</Italian>
+				<Spanish>M258 Smoke</Spanish>
+				<French>M258 Smoke</French>
+				<Czech>M258 Smoke</Czech>
+				<Russian>M258 Smoke</Russian>
+				<Polish>M258 Smoke</Polish>
+				<Hungarian>M258 Smoke</Hungarian>
+			</Key>
+			<Key ID="STR_DN_VTN_40mmMecar_M259">
+				<German>M259 Cluster Star</German>
+				<English>M259 Cluster Star</English>
+				<Italian>M259 Cluster Star</Italian>
+				<Spanish>M259 Cluster Star</Spanish>
+				<French>M259 Cluster Star</French>
+				<Czech>M259 Cluster Star</Czech>
+				<Russian>M259 Cluster Star</Russian>
+				<Polish>M259 Cluster Star</Polish>
+				<Hungarian>M259 Cluster Star</Hungarian>
+			</Key>
+			<Key ID="STR_DN_VTN_40mmMecar_M287">
+				<German>M287 HELR</German>
+				<English>M287 HELR</English>
+				<Italian>M287 HELR</Italian>
+				<Spanish>M287 HELR</Spanish>
+				<French>M287 HELR</French>
+				<Czech>M287 HELR</Czech>
+				<Russian>M287 HELR</Russian>
+				<Polish>M287 HELR</Polish>
+				<Hungarian>M287 HELR</Hungarian>
+			</Key>
+			
+			<Key ID="STR_DN_VTN_83mm_MK3MOD0">
+				<German>MK 3 Mod 0 HEDP</German>
+				<English>MK 3 Mod 0 HEDP</English>
+				<Italian>MK 3 Mod 0 HEDP</Italian>
+				<Spanish>MK 3 Mod 0 HEDP</Spanish>
+				<French>MK 3 Mod 0 HEDP</French>
+				<Czech>MK 3 Mod 0 HEDP</Czech>
+				<Russian>MK 3 Mod 0 HEDP</Russian>
+				<Polish>MK 3 Mod 0 HEDP</Polish>
+				<Hungarian>MK 3 Mod 0 HEDP</Hungarian>
+			</Key>
+			<Key ID="STR_DN_VTN_83mm_MK6MOD0">
+				<German>MK 6 Mod 0 HEAA</German>
+				<English>MK 6 Mod 0 HEAA</English>
+				<Italian>MK 6 Mod 0 HEAA</Italian>
+				<Spanish>MK 6 Mod 0 HEAA</Spanish>
+				<French>MK 6 Mod 0 HEAA</French>
+				<Czech>MK 6 Mod 0 HEAA</Czech>
+				<Russian>MK 6 Mod 0 HEAA</Russian>
+				<Polish>MK 6 Mod 0 HEAA</Polish>
+				<Hungarian>MK 6 Mod 0 HEAA</Hungarian>
+			</Key>
+			<Key ID="STR_DN_VTN_83mm_MK80MOD0">
+				<German>MK 80 Mod 0 SMAW-NE</German>
+				<English>MK 80 Mod 0 SMAW-NE</English>
+				<Italian>MK 80 Mod 0 SMAW-NE</Italian>
+				<Spanish>MK 80 Mod 0 SMAW-NE</Spanish>
+				<French>MK 80 Mod 0 SMAW-NE</French>
+				<Czech>MK 80 Mod 0 SMAW-NE</Czech>
+				<Russian>MK 80 Mod 0 SMAW-NE</Russian>
+				<Polish>MK 80 Mod 0 SMAW-NE</Polish>
+				<Hungarian>MK 80 Mod 0 SMAW-NE</Hungarian>
+			</Key>
+			<Key ID="STR_DN_VTN_9mm_MARK217MOD0">
+				<German>MK217 Mod 0</German>
+				<English>MK217 Mod 0</English>
+				<Italian>MK217 Mod 0</Italian>
+				<Spanish>MK217 Mod 0</Spanish>
+				<French>MK217 Mod 0</French>
+				<Czech>MK217 Mod 0</Czech>
+				<Russian>MK217 Mod 0</Russian>
+				<Polish>MK217 Mod 0</Polish>
+				<Hungarian>MK217 Mod 0</Hungarian>
+			</Key>
+
+			<Key ID="STR_DN_VTN_60mm_M888">
+				<German>M888 HE</German>
+				<English>M888 HE</English>
+				<Italian>M888 HE</Italian>
+				<Spanish>M888 HE</Spanish>
+				<French>M888 HE</French>
+				<Czech>M888 HE</Czech>
+				<Russian>M888 HE</Russian>
+				<Polish>M888 HE</Polish>
+				<Hungarian>M888 HE</Hungarian>
+			</Key>
+			<Key ID="STR_DN_VTN_60mm_M888_1">
+				<German>M888 HE Teillad.1</German>
+				<English>M888 HE prop.1</English>
+				<Italian>M888 HE prop.1</Italian>
+				<Spanish>M888 HE prop.1</Spanish>
+				<French>M888 HE prop.1</French>
+				<Czech>M888 HE prop.1</Czech>
+				<Russian>M888 HE доп.1</Russian>
+				<Polish>M888 HE prop.1</Polish>
+				<Hungarian>M888 HE prop.1</Hungarian>
+			</Key>
+			<Key ID="STR_DN_VTN_60mm_M721">
+				<German>M721 LEUCHT</German>
+				<English>M721 ILLUM</English>
+				<Italian>M721 ILLUM</Italian>
+				<Spanish>M721 ILLUM</Spanish>
+				<French>M721 ILLUM</French>
+				<Czech>M721 ILLUM</Czech>
+				<Russian>M721 ILLUM</Russian>
+				<Polish>M721 ILLUM</Polish>
+				<Hungarian>M721 ILLUM</Hungarian>
+			</Key>
+			<Key ID="STR_DN_VTN_60mm_M721_1">
+				<German>M721 LEUCHT Teillad.1</German>
+				<English>M721 ILLUM prop.1</English>
+				<Italian>M721 ILLUM prop.1</Italian>
+				<Spanish>M721 ILLUM prop.1</Spanish>
+				<French>M721 ILLUM prop.1</French>
+				<Czech>M721 ILLUM prop.1</Czech>
+				<Russian>M721 ILLUM доп.1</Russian>
+				<Polish>M721 ILLUM prop.1</Polish>
+				<Hungarian>M721 ILLUM prop.1</Hungarian>
+			</Key>
+			<Key ID="STR_DN_VTN_60mm_M767">
+				<German>M767 LEUCHT</German>
+				<English>M767 ILLUM</English>
+				<Italian>M767 ILLUM</Italian>
+				<Spanish>M767 ILLUM</Spanish>
+				<French>M767 ILLUM</French>
+				<Czech>M767 ILLUM</Czech>
+				<Russian>M767 ILLUM</Russian>
+				<Polish>M767 ILLUM</Polish>
+				<Hungarian>M767 ILLUM</Hungarian>
+			</Key>
+			<Key ID="STR_DN_VTN_60mm_M767_1">
+				<German>M767 LEUCHT Teillad.1</German>
+				<English>M767 ILLUM prop.1</English>
+				<Italian>M767 ILLUM prop.1</Italian>
+				<Spanish>M767 ILLUM prop.1</Spanish>
+				<French>M767 ILLUM prop.1</French>
+				<Czech>M767 ILLUM prop.1</Czech>
+				<Russian>M767 ILLUM доп.1</Russian>
+				<Polish>M767 ILLUM prop.1</Polish>
+				<Hungarian>M767 ILLUM prop.1</Hungarian>
+			</Key>
+			<Key ID="STR_DN_VTN_60mm_M722A1">
+				<German>M722A1 RAUCH</German>
+				<English>M722A1 WP</English>
+				<Italian>M722A1 WP</Italian>
+				<Spanish>M722A1 WP</Spanish>
+				<French>M722A1 WP</French>
+				<Czech>M722A1 WP</Czech>
+				<Russian>M722A1 WP</Russian>
+				<Polish>M722A1 WP</Polish>
+				<Hungarian>M722A1 WP</Hungarian>
+			</Key>
+			<Key ID="STR_DN_VTN_60mm_M722A1_1">
+				<German>M722A1 RAUCH Teillad.1</German>
+				<English>M722A1 WP prop.1</English>
+				<Italian>M722A1 WP prop.1</Italian>
+				<Spanish>M722A1 WP prop.1</Spanish>
+				<French>M722A1 WP prop.1</French>
+				<Czech>M722A1 WP prop.1</Czech>
+				<Russian>M722A1 WP доп.1</Russian>
+				<Polish>M722A1 WP prop.1</Polish>
+				<Hungarian>M722A1 WP prop.1</Hungarian>
+			</Key>
+			<Key ID="STR_DN_VTN_60mm_M1061">
+				<German>M1061 MAPAM</German>
+				<English>M1061 MAPAM</English>
+				<Italian>M1061 MAPAM</Italian>
+				<Spanish>M1061 MAPAM</Spanish>
+				<French>M1061 MAPAM</French>
+				<Czech>M1061 MAPAM</Czech>
+				<Russian>M1061 MAPAM</Russian>
+				<Polish>M1061 MAPAM</Polish>
+				<Hungarian>M1061 MAPAM</Hungarian>
+			</Key>
+			<Key ID="STR_DN_VTN_60mm_M1061_1">
+				<German>M1061 MAPAM Teillad.1</German>
+				<English>M1061 MAPAM prop.1</English>
+				<Italian>M1061 MAPAM prop.1</Italian>
+				<Spanish>M1061 MAPAM prop.1</Spanish>
+				<French>M1061 MAPAM prop.1</French>
+				<Czech>M1061 MAPAM prop.1</Czech>
+				<Russian>M1061 MAPAM доп.1</Russian>
+				<Polish>M1061 MAPAM prop.1</Polish>
+				<Hungarian>M1061 MAPAM prop.1</Hungarian>
+			</Key>
+
+			<Key ID="STR_DN_VTN_6mm_BB">
+				<German>6 mm BB</German>
+				<English>6mm BB</English>
+				<Italian>6mm BB</Italian>
+				<Spanish>6 mm BB</Spanish>
+				<French>6mm BB</French>
+				<Czech>6 mm BB</Czech>
+				<Russian>6 мм BB</Russian>
+				<Polish>6 mm BB</Polish>
+				<Hungarian>6mm BB</Hungarian>
+			</Key>
+		</Container>
+	</Package>
+</Project>
